@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Homework. Lesson 1.docx" />
+    <Content Include="Homework. Lesson 2.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
