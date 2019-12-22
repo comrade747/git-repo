@@ -18,5 +18,7 @@ class AvitoRealEstatePipeline(object):
         collection = self.db["AvitoRealEstate"]
         item.update(
                 {'parse_date': datetime.datetime.now()})
+        #doc = collection.find_one({"url": item.fields['url']})
+        #if doc is None:
         collection.insert_one(item)
         return item

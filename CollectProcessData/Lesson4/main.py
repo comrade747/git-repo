@@ -8,8 +8,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
 import settings
 from RealEstateSpider import AvitoRealEstateSpider
-#from crochet import setup
-#setup()
+
     
 if __name__ == '__main__':
 
