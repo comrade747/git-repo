@@ -7,13 +7,15 @@ Created on Sat Dec 21 17:58:26 2019
 import scrapy
 from scrapy.loader import ItemLoader
 from scrapy.selector import Selector
+from scrapy.spiders import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
 from RealEstateItem import AvitoREItem
 
 #class AvitoRealEstateLoader(ItemLoader):
 #    default_output_processor = Identity()
 
 
-class AvitoRealEstateSpider(scrapy.Spider):
+class AvitoRealEstateSpider(CrawlSpider):
     name = "avitorealestate"
     allowed_domains = ["avito.ru"]
     start_urls = [f"https://www.avito.ru/kazan/kvartiry/prodam?p={i}" for i in range(1, 101)]
@@ -24,7 +26,7 @@ class AvitoRealEstateSpider(scrapy.Spider):
 
     def parse(self, response):
         hxs = Selector(response)
-        links = hxs.xpath('//div[@class="snipet-title-row"]/h3[@class="snipet-title"]/a[@itemprop="url"]/@href')
+        links = hxs.xpath('//div[@class="snippet-title-row"]/h3[@class="snippet-title"]/a[@itemprop="url"]/@href')
         for url in links:
             yield response.follow(url, callback=self.parse_item)
     
