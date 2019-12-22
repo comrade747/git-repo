@@ -1,0 +1,324 @@
+INFO     [2019-12-22 13:25:03] Scrapy 1.8.0 started (bot: gbavito)
+INFO     [2019-12-22 13:25:03] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-10-10.0.18362-SP0
+INFO     [2019-12-22 13:25:03] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbavito', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 3.034, 'LOG_FILE': 'AvitoRealEstate.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'RealEstateSpider', 'SPIDER_MODULES': ['RealEstateSpider'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2019-12-22 13:25:03] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2019-12-22 13:25:08] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'rotating_proxies.middlewares.RotatingProxyMiddleware',
+ 'rotating_proxies.middlewares.BanDetectionMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2019-12-22 13:25:08] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2019-12-22 13:25:11] Enabled item pipelines:
+['pipelines.AvitoRealEstatePipeline']
+INFO     [2019-12-22 13:25:11] Spider opened
+INFO     [2019-12-22 13:25:11] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:25:11] Proxies(good: 0, dead: 0, unchecked: 8, reanimated: 0, mean backoff time: 0s)
+DEBUG    [2019-12-22 13:25:15] Proxy <http://115.87.205.53:8213> is DEAD
+DEBUG    [2019-12-22 13:25:15] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=6> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:25:18] slot: 133.167.93.190 | conc: 1 | delay: 3000 ms (-2000) | latency: 2942 ms | size:153052 bytes
+DEBUG    [2019-12-22 13:25:18] Proxy <http://133.167.93.190:3128> is GOOD
+DEBUG    [2019-12-22 13:25:18] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=2> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:19] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (-2000) | latency: 4550 ms | size:142222 bytes
+DEBUG    [2019-12-22 13:25:19] Proxy <http://181.62.245.247:8080> is GOOD
+DEBUG    [2019-12-22 13:25:19] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=4> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:25:33] Proxy <http://138.201.106.88:8080> is DEAD
+DEBUG    [2019-12-22 13:25:33] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=1> with another proxy (failed 1 times, max retries: 5)
+DEBUG    [2019-12-22 13:25:33] Proxy <http://41.76.117.194:30236> is DEAD
+DEBUG    [2019-12-22 13:25:33] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=8> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:25:33] slot: 133.167.93.190 | conc: 3 | delay: 3000 ms (+0) | latency: 2720 ms | size:137844 bytes
+DEBUG    [2019-12-22 13:25:33] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=3> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:36] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1375 ms | size:139864 bytes
+DEBUG    [2019-12-22 13:25:36] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=11> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:25:39] Proxy <http://137.74.154.6:8080> is DEAD
+DEBUG    [2019-12-22 13:25:39] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=6> with another proxy (failed 2 times, max retries: 5)
+INFO     [2019-12-22 13:25:39] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 3708 ms | size:148737 bytes
+DEBUG    [2019-12-22 13:25:39] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=10> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:25:40] Proxy <http://138.201.106.88:8080> is DEAD
+DEBUG    [2019-12-22 13:25:40] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=5> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:25:41] Proxies(good: 2, dead: 4, unchecked: 2, reanimated: 0, mean backoff time: 163s)
+INFO     [2019-12-22 13:25:42] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1316 ms | size:139900 bytes
+DEBUG    [2019-12-22 13:25:42] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=5> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:44] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (-2000) | latency: 6840 ms | size:131245 bytes
+DEBUG    [2019-12-22 13:25:44] Proxy <http://49.156.42.188:8080> is GOOD
+DEBUG    [2019-12-22 13:25:44] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=12> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:25:45] Proxy <http://137.74.154.6:8080> is DEAD
+DEBUG    [2019-12-22 13:25:45] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=9> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:25:48] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 3871 ms | size:141226 bytes
+DEBUG    [2019-12-22 13:25:48] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=6> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:49] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1490 ms | size:137958 bytes
+DEBUG    [2019-12-22 13:25:49] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=13> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:49] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 6434 ms | size:129943 bytes
+DEBUG    [2019-12-22 13:25:49] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=8> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:53] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1658 ms | size:129920 bytes
+DEBUG    [2019-12-22 13:25:53] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=9> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:57] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1826 ms | size:130558 bytes
+DEBUG    [2019-12-22 13:25:57] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=17> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:25:57] slot: 136.243.81.120 | conc: 4 | delay: 5000 ms (+0) | latency:24569 ms | size:  5767 bytes
+DEBUG    [2019-12-22 13:25:57] Proxy <http://136.243.81.120:80> is DEAD
+DEBUG    [2019-12-22 13:25:57] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=1> with another proxy (failed 2 times, max retries: 5)
+INFO     [2019-12-22 13:26:00] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1599 ms | size:140785 bytes
+DEBUG    [2019-12-22 13:26:00] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=18> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:01] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 2517 ms | size:133113 bytes
+DEBUG    [2019-12-22 13:26:01] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=15> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:03] Proxy <http://136.243.81.120:80> is DEAD
+DEBUG    [2019-12-22 13:26:03] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=14> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:26:05] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1659 ms | size:134149 bytes
+DEBUG    [2019-12-22 13:26:05] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=21> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:06] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1470 ms | size:126642 bytes
+DEBUG    [2019-12-22 13:26:06] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=14> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:09] Proxy <http://136.243.81.120:80> is DEAD
+DEBUG    [2019-12-22 13:26:09] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=16> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:26:10] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1555 ms | size:123698 bytes
+DEBUG    [2019-12-22 13:26:10] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=23> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:11] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 2380 ms | size:128187 bytes
+DEBUG    [2019-12-22 13:26:11] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=24> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:11] Crawled 18 pages (at 18 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:26:11] Proxies(good: 3, dead: 5, unchecked: 0, reanimated: 0, mean backoff time: 327s)
+INFO     [2019-12-22 13:26:13] slot: 133.167.93.190 | conc: 3 | delay: 3000 ms (+0) | latency: 3117 ms | size:137499 bytes
+DEBUG    [2019-12-22 13:26:13] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=20> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:13] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 2311 ms | size:128743 bytes
+DEBUG    [2019-12-22 13:26:13] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=1> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:15] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1538 ms | size:123853 bytes
+DEBUG    [2019-12-22 13:26:15] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=25> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:15] Proxy <http://136.243.81.120:80> is DEAD
+DEBUG    [2019-12-22 13:26:15] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=19> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:26:17] slot: 133.167.93.190 | conc: 1 | delay: 3000 ms (+0) | latency: 3569 ms | size:126137 bytes
+DEBUG    [2019-12-22 13:26:17] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=22> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:17] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1349 ms | size:125388 bytes
+DEBUG    [2019-12-22 13:26:17] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=29> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:18] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1632 ms | size:129125 bytes
+DEBUG    [2019-12-22 13:26:18] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=26> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:21] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1493 ms | size:129945 bytes
+DEBUG    [2019-12-22 13:26:21] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=19> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:23] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1390 ms | size:123630 bytes
+DEBUG    [2019-12-22 13:26:23] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=27> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:25] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1275 ms | size:116718 bytes
+DEBUG    [2019-12-22 13:26:25] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=30> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:25] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1683 ms | size:125356 bytes
+DEBUG    [2019-12-22 13:26:25] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=28> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:30] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1689 ms | size:128735 bytes
+DEBUG    [2019-12-22 13:26:30] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=33> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:30] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1371 ms | size:126792 bytes
+DEBUG    [2019-12-22 13:26:30] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=31> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:30] GOOD proxy became DEAD: <http://181.62.245.247:8080>
+DEBUG    [2019-12-22 13:26:30] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=16> with another proxy (failed 2 times, max retries: 5)
+INFO     [2019-12-22 13:26:34] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1714 ms | size:124165 bytes
+DEBUG    [2019-12-22 13:26:34] Proxy <http://181.62.245.247:8080> is GOOD
+DEBUG    [2019-12-22 13:26:34] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=32> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:35] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 2099 ms | size:137146 bytes
+DEBUG    [2019-12-22 13:26:35] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=16> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:37] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2942 ms | size:124330 bytes
+DEBUG    [2019-12-22 13:26:37] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=34> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:38] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1636 ms | size:120497 bytes
+DEBUG    [2019-12-22 13:26:38] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=40> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:38] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1649 ms | size:133981 bytes
+DEBUG    [2019-12-22 13:26:38] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=37> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:41] Proxies(good: 3, dead: 5, unchecked: 0, reanimated: 0, mean backoff time: 561s)
+DEBUG    [2019-12-22 13:26:41] 1 proxies moved from 'dead' to 'reanimated'
+INFO     [2019-12-22 13:26:42] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1715 ms | size:115697 bytes
+DEBUG    [2019-12-22 13:26:42] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=42> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:44] slot: 133.167.93.190 | conc: 5 | delay: 3000 ms (+0) | latency: 4036 ms | size:126538 bytes
+DEBUG    [2019-12-22 13:26:44] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=35> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:45] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 3626 ms | size:126437 bytes
+DEBUG    [2019-12-22 13:26:45] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=36> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:46] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1562 ms | size:117677 bytes
+DEBUG    [2019-12-22 13:26:46] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=43> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:48] Proxy <http://115.87.205.53:8213> is DEAD
+DEBUG    [2019-12-22 13:26:48] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=46> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:26:49] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1757 ms | size:121012 bytes
+DEBUG    [2019-12-22 13:26:49] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=44> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:50] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1342 ms | size:119495 bytes
+DEBUG    [2019-12-22 13:26:50] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=46> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:55] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1544 ms | size:108821 bytes
+DEBUG    [2019-12-22 13:26:55] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=49> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:55] slot: 133.167.93.190 | conc: 6 | delay: 3000 ms (+0) | latency: 6032 ms | size:123984 bytes
+DEBUG    [2019-12-22 13:26:55] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=38> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:56] slot: 133.167.93.190 | conc: 5 | delay: 3000 ms (+0) | latency: 3263 ms | size:119408 bytes
+DEBUG    [2019-12-22 13:26:56] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=45> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:26:56] 1 proxies moved from 'dead' to 'reanimated'
+INFO     [2019-12-22 13:26:57] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 3033 ms | size:121552 bytes
+DEBUG    [2019-12-22 13:26:57] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=39> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:58] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 6116 ms | size:121863 bytes
+DEBUG    [2019-12-22 13:26:58] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=41> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:26:58] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1316 ms | size:116313 bytes
+DEBUG    [2019-12-22 13:26:59] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=51> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:01] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1363 ms | size:114569 bytes
+DEBUG    [2019-12-22 13:27:01] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=54> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:01] slot: 138.201.106.88 | conc: 1 | delay: 5000 ms (+0) | latency: 4315 ms | size:  5767 bytes
+DEBUG    [2019-12-22 13:27:01] Proxy <http://138.201.106.88:8080> is DEAD
+DEBUG    [2019-12-22 13:27:01] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=53> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:27:03] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2944 ms | size:120848 bytes
+DEBUG    [2019-12-22 13:27:03] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=47> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:03] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1510 ms | size:115694 bytes
+DEBUG    [2019-12-22 13:27:03] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=55> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:04] slot: 138.201.106.88 | conc: 1 | delay: 5000 ms (+0) | latency:  220 ms | size:  5767 bytes
+DEBUG    [2019-12-22 13:27:04] Proxy <http://138.201.106.88:8080> is DEAD
+DEBUG    [2019-12-22 13:27:04] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=56> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:27:06] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 2259 ms | size:110544 bytes
+DEBUG    [2019-12-22 13:27:06] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=57> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:09] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 4964 ms | size:112852 bytes
+DEBUG    [2019-12-22 13:27:09] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=48> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:11] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1790 ms | size:118408 bytes
+DEBUG    [2019-12-22 13:27:11] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=56> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:11] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2859 ms | size:113583 bytes
+DEBUG    [2019-12-22 13:27:11] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=50> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:11] Crawled 54 pages (at 36 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:27:11] Proxies(good: 3, dead: 5, unchecked: 0, reanimated: 0, mean backoff time: 1033s)
+INFO     [2019-12-22 13:27:15] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1892 ms | size:116053 bytes
+DEBUG    [2019-12-22 13:27:15] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=61> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:15] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2467 ms | size:117579 bytes
+DEBUG    [2019-12-22 13:27:15] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=52> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:17] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1621 ms | size:110935 bytes
+DEBUG    [2019-12-22 13:27:17] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=63> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:18] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1500 ms | size:116712 bytes
+DEBUG    [2019-12-22 13:27:18] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=62> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:19] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2761 ms | size:112293 bytes
+DEBUG    [2019-12-22 13:27:19] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=53> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:21] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1614 ms | size:115955 bytes
+DEBUG    [2019-12-22 13:27:21] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=64> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:22] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 2085 ms | size:116611 bytes
+DEBUG    [2019-12-22 13:27:22] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=65> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:23] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2664 ms | size:112057 bytes
+DEBUG    [2019-12-22 13:27:23] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=58> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:25] slot: 181.62.245.247 | conc: 1 | delay: 3000 ms (+0) | latency: 1325 ms | size:106778 bytes
+DEBUG    [2019-12-22 13:27:25] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=68> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:26] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1618 ms | size:114764 bytes
+DEBUG    [2019-12-22 13:27:26] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=66> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:28] slot: 133.167.93.190 | conc: 3 | delay: 3000 ms (+0) | latency: 2590 ms | size:115880 bytes
+DEBUG    [2019-12-22 13:27:28] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=59> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:29] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1385 ms | size:110955 bytes
+DEBUG    [2019-12-22 13:27:29] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=70> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:30] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 2851 ms | size:110879 bytes
+DEBUG    [2019-12-22 13:27:30] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=60> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:31] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1678 ms | size:109594 bytes
+DEBUG    [2019-12-22 13:27:31] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=69> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:33] slot: 133.167.93.190 | conc: 1 | delay: 3000 ms (+0) | latency: 3127 ms | size:111539 bytes
+DEBUG    [2019-12-22 13:27:33] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=67> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:34] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1388 ms | size:114349 bytes
+DEBUG    [2019-12-22 13:27:34] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=72> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:35] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 2329 ms | size:110974 bytes
+DEBUG    [2019-12-22 13:27:35] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=76> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:37] slot: 181.62.245.247 | conc: 2 | delay: 3000 ms (+0) | latency: 1477 ms | size:111060 bytes
+DEBUG    [2019-12-22 13:27:37] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=73> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:40] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1723 ms | size:113453 bytes
+DEBUG    [2019-12-22 13:27:40] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=77> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:41] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1452 ms | size:113341 bytes
+DEBUG    [2019-12-22 13:27:41] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=74> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:41] Proxies(good: 3, dead: 5, unchecked: 0, reanimated: 0, mean backoff time: 1033s)
+INFO     [2019-12-22 13:27:42] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1671 ms | size:111419 bytes
+DEBUG    [2019-12-22 13:27:42] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=79> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:45] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1648 ms | size:111205 bytes
+DEBUG    [2019-12-22 13:27:45] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=80> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:47] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1410 ms | size:115014 bytes
+DEBUG    [2019-12-22 13:27:47] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=78> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:49] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1558 ms | size:111499 bytes
+DEBUG    [2019-12-22 13:27:49] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=81> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:51] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1292 ms | size:108747 bytes
+DEBUG    [2019-12-22 13:27:51] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=82> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:53] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 3113 ms | size:110190 bytes
+DEBUG    [2019-12-22 13:27:53] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=83> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:53] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1402 ms | size:108931 bytes
+DEBUG    [2019-12-22 13:27:53] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=85> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:54] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1422 ms | size:108638 bytes
+DEBUG    [2019-12-22 13:27:54] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=84> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:58] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1500 ms | size:113697 bytes
+DEBUG    [2019-12-22 13:27:58] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=86> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:27:58] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1572 ms | size:111141 bytes
+DEBUG    [2019-12-22 13:27:58] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=89> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:01] slot: 181.62.245.247 | conc: 3 | delay: 3000 ms (+0) | latency: 1493 ms | size:114627 bytes
+DEBUG    [2019-12-22 13:28:01] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=90> (referer: https://www.avito.ru/)
+DEBUG    [2019-12-22 13:28:02] GOOD proxy became DEAD: <http://181.62.245.247:8080>
+DEBUG    [2019-12-22 13:28:02] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=75> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:28:02] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1485 ms | size:106380 bytes
+DEBUG    [2019-12-22 13:28:02] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=88> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:04] slot: 133.167.93.190 | conc: 3 | delay: 3000 ms (+0) | latency: 3243 ms | size:110804 bytes
+DEBUG    [2019-12-22 13:28:04] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=87> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:07] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1915 ms | size:113545 bytes
+DEBUG    [2019-12-22 13:28:07] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=92> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:09] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1894 ms | size:114086 bytes
+DEBUG    [2019-12-22 13:28:09] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=93> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:11] Crawled 89 pages (at 35 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:28:11] Proxies(good: 2, dead: 6, unchecked: 0, reanimated: 0, mean backoff time: 892s)
+DEBUG    [2019-12-22 13:28:12] Proxy <http://137.74.154.6:8080> is DEAD
+DEBUG    [2019-12-22 13:28:12] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=7> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:28:12] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 2590 ms | size:116935 bytes
+DEBUG    [2019-12-22 13:28:12] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=91> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:14] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1650 ms | size:109925 bytes
+DEBUG    [2019-12-22 13:28:14] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=75> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:17] slot: 133.167.93.190 | conc: 4 | delay: 3000 ms (+0) | latency: 4062 ms | size:114331 bytes
+DEBUG    [2019-12-22 13:28:17] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=94> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:18] slot: 133.167.93.190 | conc: 3 | delay: 3000 ms (+0) | latency: 3121 ms | size:111092 bytes
+DEBUG    [2019-12-22 13:28:18] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=96> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:19] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 1974 ms | size:113117 bytes
+DEBUG    [2019-12-22 13:28:19] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=95> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:23] slot: 133.167.93.190 | conc: 2 | delay: 3000 ms (+0) | latency: 2617 ms | size:114605 bytes
+DEBUG    [2019-12-22 13:28:23] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=97> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:23] slot: 49.156.42.188 | conc: 2 | delay: 3000 ms (+0) | latency: 2506 ms | size:125659 bytes
+DEBUG    [2019-12-22 13:28:23] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=7> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:25] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1916 ms | size:113122 bytes
+DEBUG    [2019-12-22 13:28:25] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=98> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:25] slot: 133.167.93.190 | conc: 1 | delay: 3000 ms (+0) | latency: 2339 ms | size:116414 bytes
+DEBUG    [2019-12-22 13:28:25] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=99> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:29] slot: 49.156.42.188 | conc: 1 | delay: 3000 ms (+0) | latency: 1606 ms | size:113643 bytes
+DEBUG    [2019-12-22 13:28:29] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=100> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:28:41] Proxies(good: 2, dead: 6, unchecked: 0, reanimated: 0, mean backoff time: 889s)
+INFO     [2019-12-22 13:29:11] Crawled 99 pages (at 10 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:29:11] Proxies(good: 2, dead: 6, unchecked: 0, reanimated: 0, mean backoff time: 889s)
+DEBUG    [2019-12-22 13:29:16] 1 proxies moved from 'dead' to 'reanimated'
+INFO     [2019-12-22 13:29:41] Proxies(good: 2, dead: 5, unchecked: 0, reanimated: 1, mean backoff time: 1023s)
+INFO     [2019-12-22 13:30:11] Crawled 99 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-22 13:30:11] Proxies(good: 2, dead: 5, unchecked: 0, reanimated: 1, mean backoff time: 1023s)
+DEBUG    [2019-12-22 13:30:29] Proxy <http://181.62.245.247:8080> is DEAD
+DEBUG    [2019-12-22 13:30:29] Retrying <GET https://www.avito.ru/kazan/kvartiry/prodam?p=71> with another proxy (failed 1 times, max retries: 5)
+INFO     [2019-12-22 13:30:41] slot: 133.167.93.190 | conc: 1 | delay: 3000 ms (-2000) | latency: 3009 ms | size:113677 bytes
+DEBUG    [2019-12-22 13:30:41] Crawled (200) <GET https://www.avito.ru/kazan/kvartiry/prodam?p=71> (referer: https://www.avito.ru/)
+INFO     [2019-12-22 13:30:41] Closing spider (finished)
+INFO     [2019-12-22 13:30:41] Dumping Scrapy stats:
+{'bans/error/twisted.internet.error.ConnectionRefusedError': 2,
+ 'bans/error/twisted.internet.error.TCPTimedOutError': 10,
+ 'bans/error/twisted.internet.error.TimeoutError': 2,
+ 'bans/status/403': 3,
+ 'downloader/exception_count': 14,
+ 'downloader/exception_type_count/twisted.internet.error.ConnectionRefusedError': 2,
+ 'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 10,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 2,
+ 'downloader/request_bytes': 48071,
+ 'downloader/request_count': 117,
+ 'downloader/request_method_count/GET': 117,
+ 'downloader/response_bytes': 12312712,
+ 'downloader/response_count': 103,
+ 'downloader/response_status_count/200': 100,
+ 'downloader/response_status_count/403': 3,
+ 'elapsed_time_seconds': 329.645035,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 22, 10, 30, 41, 593373),
+ 'log_count/DEBUG': 141,
+ 'log_count/INFO': 127,
+ 'proxies/dead': 5,
+ 'proxies/good': 2,
+ 'proxies/mean_backoff': 1006.1154683103293,
+ 'proxies/reanimated': 1,
+ 'proxies/unchecked': 0,
+ 'response_received_count': 100,
+ 'scheduler/dequeued': 117,
+ 'scheduler/dequeued/memory': 117,
+ 'scheduler/enqueued': 117,
+ 'scheduler/enqueued/memory': 117,
+ 'start_time': datetime.datetime(2019, 12, 22, 10, 25, 11, 948338)}
+INFO     [2019-12-22 13:30:41] Spider closed (finished)
