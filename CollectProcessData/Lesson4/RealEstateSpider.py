@@ -18,9 +18,9 @@ class AvitoRealEstateSpider(scrapy.Spider):
     allowed_domains = ["avito.ru"]
     start_urls = [f"https://www.avito.ru/kazan/kvartiry/prodam?p={i}" for i in range(1, 101)]
 
-#    rules = (
-#        Rule(LinkExtractor(allow=('prodam')), callback='parse_item'),
-#    )
+    rules = (
+        Rule(LinkExtractor(allow=('prodam')), callback='parse'),
+    )
 
     def parse(self, response):
         hxs = Selector(response)
@@ -32,7 +32,7 @@ class AvitoRealEstateSpider(scrapy.Spider):
         item = ItemLoader(AvitoREItem(), response)
         item.add_value('url', response.url)
         item.add_xpath('title', 'h1/span/text()')
-        item.add_xpath('photos', '//div[contains(@class="js-gallery-img-frame")]/@data-url')
+        item.add_xpath('photos', '//div[contains(@class, "js-gallery-img-frame")]/@data-url')
         item.add_xpath('params', '//div[@class="item-params"]/ul[@class="item-params-list"]/li')
         yield item.load_item()
             

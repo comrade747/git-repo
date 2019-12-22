@@ -15,7 +15,7 @@ class AvitoRealEstatePipeline(object):
         self.db = client['geekbrains'] 
         
     def process_item(self, item, spider):
-        collection = self.db[type(item).__name__]
+        collection = self.db["AvitoRealEstate"]
         item.update(
                 {'parse_date': datetime.datetime.now()})
         collection.insert_one(item)

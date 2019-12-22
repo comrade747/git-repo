@@ -7,24 +7,20 @@ Created on Sat Dec 21 15:24:01 2019
 
 from scrapy.item import Item, Field
 from scrapy.loader.processors import MapCompose, TakeFirst
-import logging
-    
+from bs4 import BeautifulSoup
 
-def cleaner_proto(values):
-    if values[:2] == '//':
-        return f'https:{values}'
-    return values
+def cleaner_proto(value):
+    result = value
+    if value[:2] == '//':
+        result = f'https:{value}'
+    return result
     
     
 def cleaner_params(item):
-    result = item.split('">')[-1].split(':')
-    key = result[0]
-    value = result[-1].split('/span')[-1].split('</')[0][:-1]
-    try:
-        value = int(value)
-    except Exception as ex:
-        logging.exception(ex)
-    return {key, value}
+    soup = BeautifulSoup(item, 'lxml')
+    result = soup.select_one('li.item-params-list-item').text
+    params = result.split(':')
+    return dict({params[0]: params[1]})
 
 
 def dict_params(items):
