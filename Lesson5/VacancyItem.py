@@ -37,4 +37,3 @@ class HHVacancyItem(Item):
     max_price = Field(input_processor=MapCompose(price_handler))
     org_name = Field(input_processor=MapCompose(name_handler))
     org_url = Field(input_processor=MapCompose(url_handler))
-    

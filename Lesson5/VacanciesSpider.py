@@ -36,6 +36,3 @@ class HHVacanciesSpider(CrawlSpider):
             item.add_xpath('org_name', '//div[@class="item-params"]/ul[@class="item-params-list"]/li')
             item.add_xpath('org_url', '//div[@class="item-params"]/ul[@class="item-params-list"]/li')
             yield item.load_item()
-
-            
-            
