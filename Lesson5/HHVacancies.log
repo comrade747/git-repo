@@ -1,0 +1,34 @@
+INFO     [2019-12-25 22:34:13] Scrapy 1.8.0 started (bot: hhvacancies)
+INFO     [2019-12-25 22:34:13] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2019-12-25 22:34:13] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'hhvacancies', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'DOWNLOAD_DELAY': 1.034, 'LOG_FILE': 'HHVacancies.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'VacanciesSpider', 'REDIRECT_ENABLED': False, 'SPIDER_MODULES': ['VacanciesSpider'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2019-12-25 22:34:14] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2019-12-25 22:34:14] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'rotating_proxies.middlewares.RotatingProxyMiddleware',
+ 'rotating_proxies.middlewares.BanDetectionMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2019-12-25 22:34:14] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2019-12-25 22:34:14] Enabled item pipelines:
+['pipelines.HHVacanciesPipeline']
+INFO     [2019-12-25 22:34:14] Spider opened
+INFO     [2019-12-25 22:34:14] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2019-12-25 22:34:14] Proxies(good: 0, dead: 0, unchecked: 6, reanimated: 0, mean backoff time: 0s)
+INFO     [2019-12-25 22:34:28] slot: 104.248.226.203 | conc: 3 | delay: 5000 ms (+0) | latency:12584 ms | size:     0 bytes
+DEBUG    [2019-12-25 22:34:28] Proxy <http://104.248.226.203:8080> is GOOD
+DEBUG    [2019-12-25 22:34:28] Crawled (301) <GET https://hh.ru/search/vacancy?area=1&page=1> (referer: https://www.hh.ru/)
