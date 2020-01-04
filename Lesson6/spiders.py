@@ -13,7 +13,7 @@ from codecs import decode
 from urllib.parse import urlencode
 from scrapy.loader import ItemLoader
 from scrapy.selector import Selector
-from items import InstagramUser
+from items import GefestartFollower, GefestartFollowing
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http.response.html import HtmlResponse

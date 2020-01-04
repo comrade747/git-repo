@@ -1,0 +1,65 @@
+INFO     [2020-01-04 14:08:34] Scrapy 1.8.0 started (bot: gbavitore)
+INFO     [2020-01-04 14:08:34] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-04 14:08:35] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbavitore', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-04 14:08:35] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-04 14:08:35] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-04 14:08:35] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-04 14:08:35] Enabled item pipelines:
+[]
+INFO     [2020-01-04 14:08:35] Spider opened
+INFO     [2020-01-04 14:08:35] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-04 14:08:35] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  440 ms | size:     0 bytes
+DEBUG    [2020-01-04 14:08:35] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-04 14:08:42] slot: instagram.com | conc: 1 | delay: 2764 ms (-2235) | latency:  528 ms | size: 10503 bytes
+DEBUG    [2020-01-04 14:08:42] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-04 14:08:43] slot: 31.13.72.174 | conc: 1 | delay: 2870 ms (-2129) | latency:  740 ms | size:   101 bytes
+DEBUG    [2020-01-04 14:08:43] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-04 14:08:47] slot: 31.13.72.174 | conc: 1 | delay: 2870 ms (+0) | latency:  298 ms | size:     0 bytes
+DEBUG    [2020-01-04 14:08:47] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-04 14:08:51] slot: 31.13.72.174 | conc: 1 | delay: 1856 ms (-1014) | latency:  841 ms | size: 23815 bytes
+DEBUG    [2020-01-04 14:08:51] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-04 14:08:55] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-122) | latency:  359 ms | size:    36 bytes
+DEBUG    [2020-01-04 14:08:55] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=bd90987150a65578bc0dd5d4e60f113d&variables=%7b%22fetch_media_count%22%3a0%2c%22fetch_suggested_count%22%3a89%2c%22ignore_cache%22%3atrue%2c%22seen_ids%22%3a%5b%5d%2c%22include_reel%22%3atrue%2c%22filter_followed_friends%22%3atrue%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-04 14:08:56] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  330 ms | size:    36 bytes
+DEBUG    [2020-01-04 14:08:56] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=bd90987150a65578bc0dd5d4e60f113d&variables=%7b%22fetch_media_count%22%3a0%2c%22fetch_suggested_count%22%3a75%2c%22ignore_cache%22%3atrue%2c%22seen_ids%22%3a%5b%5d%2c%22include_reel%22%3atrue%2c%22filter_following_friends%22%3atrue%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-04 14:08:56] Closing spider (finished)
+INFO     [2020-01-04 14:08:56] Dumping Scrapy stats:
+{'downloader/request_bytes': 3544,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50692,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 21.389295,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 4, 11, 8, 56, 673956),
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 15,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 11, 8, 35, 284661)}
+INFO     [2020-01-04 14:08:56] Spider closed (finished)

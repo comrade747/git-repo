@@ -20,6 +20,9 @@ def price_handler(item):
     pass
 
 
-class InstagramUser(Item):
+class GefestartFollower(Item):
     pass
     
+
+class GefestartFollowing(Item):
+    pass

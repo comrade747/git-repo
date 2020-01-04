@@ -14,14 +14,21 @@ class InstagramUsersPipeline(object):
 #        connection = MongoClient('raspberry', 27017)
         connection = MongoClient('gbubuntu.tk', 27017)
         connection.geekbrains.authenticate('sysdba', 'masterkey')
-        self.collection = connection.geekbrains.InstagramUsers
+        self.followers = connection.geekbrains.GefestartFollowers
+        self.following = connection.geekbrains.GefestartFollowing
         
     def process_item(self, item, spider):
         item.update( {'parse_date': datetime.datetime.now()} )
-        doc = self.collection.find_one( {"url": item['url']} )
-        if doc is None:
-            self.collection.insert_one(item)
-#        else:
-#            self.collection.replace_one(item)
+        
+        if (type(item).__name__ == 'GefestartFollower'):
+            doc = self.followers.find_one( {"idenity": item['idenity']} )
+            if doc is None:
+                self.followers.insert_one(item)
+        
+        if (type(item).__name__ == 'GefestartFollowing'):
+            doc = self.following.find_one( {"idenity": item['idenity']} )
+            if doc is None:
+                self.following.insert_one(item)
+        
         return item
 
