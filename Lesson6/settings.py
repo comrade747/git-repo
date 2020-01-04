@@ -10,7 +10,7 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
 
-BOT_NAME = 'gbavitore'
+BOT_NAME = 'gbinstagram'
 
 SPIDER_MODULES = ['spiders']
 NEWSPIDER_MODULE = 'spiders'
@@ -78,10 +78,10 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'pipelines.AvitoRealEstatePipeline': 300,
+ITEM_PIPELINES = {
+    'pipelines.InstagramUsersPipeline': 300,
 #    'pipelines.PhotoLoaderPipeline': 100,
-#}
+}
 #
 #IMAGES_STORE = 'images'
 

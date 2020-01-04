@@ -6,18 +6,15 @@ Created on Sat Dec 21 17:58:26 2019
 """
 
 import scrapy
-import re, string
 import json
-from os import getcwd as current_path
-from codecs import decode
 from urllib.parse import urlencode
 from scrapy.loader import ItemLoader
 from scrapy.selector import Selector
-from items import GefestartFollower, GefestartFollowing
+from items import InstagramUser
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http.response.html import HtmlResponse
-from bs4 import BeautifulSoup
+import projUtils as pu
 
 #class HHVacancyLoader(ItemLoader):
 #    default_output_processor = Identity()
@@ -35,116 +32,74 @@ class InstagramSpider(CrawlSpider):
     query_hash = ''
 
 
-    def fetch_user_id(self, text, username):
-        result = re.search('{\"id\"\:\"\\d+\",\"username\"\:\"%s\"}' % username, 
-                           text).group()
-        return json.loads(result).get('id')
+    def data_parse(self, response:HtmlResponse, 
+                   userStatus:pu.UserRelationshipStatus,
+                   user_info:dict):
+        jdata = json.loads(response.text)['data']['user']
         
-    def fetch_query_hash(self, text, username):
-        # todo https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
-        return 'bd90987150a65578bc0dd5d4e60f113d'
-    
-    def fetch_csrf_token(self, text):
-        result = re.search('\"csrf_token\"\:\"\w+\"', text).group()
-        return result.split(':').pop().replace(r'"', '')
+        item = ItemLoader(InstagramUser(), jdata)
+        item.add_value('identity', user_info.get('identity'))
+        item.add_value('username', user_info.get('username'))
+        item.add_value('fullname', user_info.get('fullname'))
         
+        if userStatus == pu.UserRelationshipStatus.FOLLOWER and \
+            len(jdata['edge_followed_by']['edges']) == 0:
+            jdata = pu.readPersonViaJson('followers.json')['data']['user']
+            item.add_value('followers', jdata['edge_followed_by']['edges'])
+        if userStatus == pu.UserRelationshipStatus.FOLLOWING and \
+            len(jdata['edge_follow']['edges']) == 0:
+            jdata = pu.readPersonViaJson('following.json')['data']['user']
+            item.add_value('following', jdata['edge_follow']['edges'])
 
-    def savePersonViaJson(self, person):
-        result = None
-        fullFileName = f'{current_path()}\\{self.insta_parse_user}.json'
-        try:
-            with open(fullFileName, 'w') as f:
-                json.dump(person, f)
-    
-            print('Объект записан')
-            result = fullFileName
-        except:
-            print('Объект записать не удалось')
-        
-        return result
-    
-    
-    def decode_text(self, text):
-        escaped_text = decode(text, 'unicode_escape')
-        pattern = re.compile('[\W_]+')
-        printable_text = pattern.sub(escaped_text, string.printable)[62:]
-        return printable_text
+        yield item.load_item()
 
-    
-    def data_parse(self, response:HtmlResponse, username):
-        json_body = json.loads(response.text)
-        self.savePersonViaJson(json_body)
         
-    
-    def user_follower_parse(self, response:HtmlResponse, username):
-        pass
-    
-    
-    def user_following_parse(self, response:HtmlResponse, username):
-        pass
-    
-    
-    def define_suggested_count(self, response:HtmlResponse):
-        soup = BeautifulSoup(response.text, 'lxml')
-        data = soup.find_all('meta', attrs={'property':'og:description'})
-        text = data[0].get('content').split()
-        followers = 0
-        following = 0
-        try:
-            followers = int(text[0][:2])
-            following = int(text[2][:2])
-        except Exception as e:
-            print(e)
-        return dict({'followers': followers, 'following': following})
-        
-        
-    def userdata_parse(self, response:HtmlResponse, username):
-        s_Cnts = self.define_suggested_count(response)
-        if s_Cnts['followers'] == 0 and s_Cnts['following'] == 0:
+    def userdata_parse(self, response:HtmlResponse, user_info:dict):
+        uci = pu.get_user_common_info(response, user_info.get('username'))
+        if uci['followers'] == 0 and uci['following'] == 0:
             return
         
-        self.query_hash = self.fetch_query_hash(response.text, username)
-        common_vars = {"fetch_media_count":0,
-                      "fetch_suggested_count":30,
-                      "ignore_cache":True,
-                      "seen_ids":[],
-                      "include_reel":True, }
+        self.query_hash = pu.fetch_query_hash(response.text)
+        query_vars = {"id":uci.get('user_id'),
+                      "include_reel":True,
+                      "fetch_mutual":True,
+                      "first":24, }
+        user_info.update({'identity': uci.get('user_id'),
+                          'fullname': uci.get('fullname')})
         
-        query_vars = common_vars.copy()
-        query_vars.update ({
-                "filter_followed_friends":True,
-                "fetch_suggested_count":s_Cnts['followers'], })
-        url = f'{self.insta_graphql_url}query_hash={self.query_hash}&{urlencode({"variables": query_vars})}'
-        yield response.follow(
-                url.lower().replace("%27", "%22").replace("+", ""),
-                self.user_follower_parse,
-                cb_kwargs={'username': self.insta_parse_user}
-                )
+        if uci['followers'] != 0:
+            self.query_hash = 'c76146de99bb02f6415203be841dd25a'
+            url = f'{self.insta_graphql_url}query_hash={self.query_hash}&{urlencode({"variables": query_vars})}'
+            yield response.follow(
+                    url.lower().replace("%27", "%22").replace("+", ""),
+                    self.data_parse,
+                    cb_kwargs={ 'userStatus': pu.UserRelationshipStatus.FOLLOWER, 'user_info': user_info }
+                    )
         
-        query_vars = common_vars.copy()
-        query_vars.update ({
-                "filter_following_friends":True,
-                "fetch_suggested_count":s_Cnts['following'], })
-        url = f'{self.insta_graphql_url}query_hash={self.query_hash}&{urlencode({"variables": query_vars})}'
-        yield response.follow(
-                url.lower().replace("%27", "%22").replace("+", ""),
-                self.user_following_parse,
-                cb_kwargs={'username': self.insta_parse_user}
-                )
+        if uci['following'] != 0:
+            self.query_hash = 'd04b0a864b4b54837c0d870b0e77e076'
+            query_vars.update ({ "fetch_mutual":False, })
+            url = f'{self.insta_graphql_url}query_hash={self.query_hash}&{urlencode({"variables": query_vars})}'
+            yield response.follow(
+                    url.lower().replace("%27", "%22").replace("+", ""),
+                    self.data_parse,
+                    cb_kwargs={ 'userStatus': pu.UserRelationshipStatus.FOLLOWING, 'user_info': user_info }
+                    )
         
         
     def user_parse(self, response:HtmlResponse):
         j_body = json.loads(response.text)
         if j_body.get('authenticated'):
+            user_info = dict({'username': self.insta_parse_user, })
             yield response.follow(
                     f'/{self.insta_parse_user}',
                     callback=self.userdata_parse,
-                    cb_kwargs={'username': self.insta_parse_user}
+                    cb_kwargs={'user_info': user_info}
                     )
         
         
     def parse(self, response:HtmlResponse):
-        csrf_token = self.fetch_csrf_token(response.text)
+        csrf_token = pu.fetch_csrf_token(response.text)
         yield scrapy.FormRequest(
             url=self.insta_login_link, 
             method='POST',

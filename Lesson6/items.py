@@ -8,21 +8,20 @@ Created on Sat Dec 21 15:24:01 2019
 from scrapy.item import Item, Field
 from scrapy.loader.processors import MapCompose, TakeFirst
 
-def name_handler(item):
-    pass
     
+def users_handler(item):
+    identity = int(item['node']['id'])
+    username = item['node']['username']
+    full_name = item['node']['full_name']
+    return dict({'identity': identity, 'username': username, 'full_name': full_name, })
+
+
+class InstagramUser(Item):
+    _id = Field()
+    identity = Field()
+    username = Field()
+    fullname = Field(output_processor=TakeFirst())
+    parse_date = Field()
+    followers = Field(input_processor=MapCompose(users_handler))
+    following = Field(input_processor=MapCompose(users_handler))
     
-def url_handler(item):
-    pass
-
-
-def price_handler(item):
-    pass
-
-
-class GefestartFollower(Item):
-    pass
-    
-
-class GefestartFollowing(Item):
-    pass
