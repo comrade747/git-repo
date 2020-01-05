@@ -19,12 +19,16 @@ class InstagramUsersPipeline(object):
         
     def process_item(self, item, spider):
         item.update( {'parse_date': datetime.datetime.now()} )
-
-        doc = self.collection.find_one( {"idenity": item['idenity']} )
+        filt = {"identity": item['identity']}
+        doc = self.collection.find_one(filt)
         if doc is None:
             self.collection.insert_one(item)
         else:
-            pass
-        
+            if 'followers' in item:
+                doc.update({ 'followers': item['followers'] })
+            if 'following' in item:
+                doc.update({ 'following': item['following'] })
+                
+            self.collection.replace_one(filter=filt, replacement=doc)
         return item
 

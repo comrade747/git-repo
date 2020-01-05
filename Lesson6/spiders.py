@@ -38,9 +38,9 @@ class InstagramSpider(CrawlSpider):
         jdata = json.loads(response.text)['data']['user']
         
         item = ItemLoader(InstagramUser(), jdata)
-        item.add_value('identity', user_info.get('identity'))
+        item.add_value('identity', int(user_info.get('identity')))
         item.add_value('username', user_info.get('username'))
-        item.add_value('fullname', user_info.get('fullname'))
+        item.add_value('full_name', user_info.get('full_name'))
         
         if userStatus == pu.UserRelationshipStatus.FOLLOWER and \
             len(jdata['edge_followed_by']['edges']) == 0:
@@ -65,7 +65,7 @@ class InstagramSpider(CrawlSpider):
                       "fetch_mutual":True,
                       "first":24, }
         user_info.update({'identity': uci.get('user_id'),
-                          'fullname': uci.get('fullname')})
+                          'full_name': uci.get('full_name')})
         
         if uci['followers'] != 0:
             self.query_hash = 'c76146de99bb02f6415203be841dd25a'

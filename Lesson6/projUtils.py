@@ -72,14 +72,14 @@ def get_user_common_info(response:HtmlResponse, username):
     user_id = json.loads(user_data).get('id')
     followers = 0
     following = 0
-    fullname = text[-2]
+    full_name = text[-2]
     try:
         followers = int(text[0][:2])
         following = int(text[2][:2])
     except Exception as e:
         print(e)
     return dict({'user_id': user_id, 
-                 'fullname': fullname, 
+                 'full_name': full_name, 
                  'username': username, 
                  'followers': followers, 
                  'following': following, })

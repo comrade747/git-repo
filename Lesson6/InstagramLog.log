@@ -142,3 +142,1978 @@ Traceback (most recent call last):
   File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\topology.py", line 189, in select_servers
     self._error_message(selector))
 pymongo.errors.ServerSelectionTimeoutError: gbubuntu.tk:27017: timed out
+INFO     [2020-01-05 01:49:17] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 01:49:17] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 01:49:17] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 01:49:17] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 01:49:17] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 01:49:17] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 01:53:33] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 01:53:33] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 01:53:33] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 01:53:33] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 01:53:33] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 01:53:33] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 01:55:28] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 01:55:28] Spider opened
+INFO     [2020-01-05 01:55:28] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 01:55:40] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  500 ms | size:     0 bytes
+DEBUG    [2020-01-05 01:55:40] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 01:55:45] slot: instagram.com | conc: 1 | delay: 2834 ms (-2165) | latency:  668 ms | size: 10505 bytes
+DEBUG    [2020-01-05 01:55:45] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 01:55:46] slot: 31.13.72.174 | conc: 1 | delay: 2982 ms (-2017) | latency:  964 ms | size:   101 bytes
+DEBUG    [2020-01-05 01:55:46] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 01:55:50] slot: 31.13.72.174 | conc: 1 | delay: 2982 ms (+0) | latency:  370 ms | size:     0 bytes
+DEBUG    [2020-01-05 01:55:50] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 01:55:53] slot: 31.13.72.174 | conc: 1 | delay: 1856 ms (-1125) | latency:  730 ms | size: 23750 bytes
+DEBUG    [2020-01-05 01:55:53] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 01:55:57] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-122) | latency:  332 ms | size:   179 bytes
+DEBUG    [2020-01-05 01:55:57] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-05 01:59:46] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 01:59:46] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 01:59:46] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 01:59:46] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 01:59:46] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 01:59:46] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 01:59:46] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 01:59:46] Spider opened
+INFO     [2020-01-05 01:59:46] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 01:59:49] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  432 ms | size:     0 bytes
+DEBUG    [2020-01-05 01:59:49] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 01:59:55] slot: instagram.com | conc: 1 | delay: 2800 ms (-2199) | latency:  601 ms | size: 10523 bytes
+DEBUG    [2020-01-05 01:59:55] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 01:59:56] slot: 31.13.72.174 | conc: 1 | delay: 2916 ms (-2083) | latency:  832 ms | size:   101 bytes
+DEBUG    [2020-01-05 01:59:56] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 01:59:59] slot: 31.13.72.174 | conc: 1 | delay: 2916 ms (+0) | latency:  571 ms | size:     0 bytes
+DEBUG    [2020-01-05 01:59:59] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:00:03] slot: 31.13.72.174 | conc: 1 | delay: 1860 ms (-1055) | latency:  804 ms | size: 23757 bytes
+DEBUG    [2020-01-05 02:00:03] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:00:06] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-126) | latency:  420 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:00:06] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-05 02:02:31] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:02:31] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:02:31] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:02:31] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:02:31] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:02:31] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:02:31] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:02:31] Spider opened
+INFO     [2020-01-05 02:02:32] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:02:33] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  492 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:02:33] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:02:38] slot: instagram.com | conc: 1 | delay: 2786 ms (-2213) | latency:  573 ms | size: 10508 bytes
+DEBUG    [2020-01-05 02:02:38] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:02:39] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (-2000) | latency: 1063 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:02:39] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:02:45] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (+0) | latency:  323 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:02:45] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:02:50] slot: 31.13.72.174 | conc: 1 | delay: 1852 ms (-1147) | latency:  704 ms | size: 23732 bytes
+DEBUG    [2020-01-05 02:02:50] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:05:50] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:05:50] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:05:50] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:05:50] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:05:51] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:05:51] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:05:51] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:05:51] Spider opened
+INFO     [2020-01-05 02:05:51] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:05:52] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  663 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:05:52] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:05:59] slot: instagram.com | conc: 1 | delay: 2843 ms (-2156) | latency:  686 ms | size: 10466 bytes
+DEBUG    [2020-01-05 02:05:59] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:06:00] slot: 31.13.72.174 | conc: 1 | delay: 2957 ms (-2042) | latency:  914 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:06:00] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:06:03] slot: 31.13.72.174 | conc: 1 | delay: 2957 ms (+0) | latency:  459 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:06:03] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:06:07] slot: 31.13.72.174 | conc: 1 | delay: 2050 ms (-906) | latency: 1143 ms | size: 23809 bytes
+DEBUG    [2020-01-05 02:06:07] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:07:03] Crawled 3 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:07:03] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-316) | latency:  305 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:07:03] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-05 02:11:09] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:11:09] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:11:09] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:11:09] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:11:10] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:11:10] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:11:10] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:11:10] Spider opened
+INFO     [2020-01-05 02:11:10] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:11:11] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  334 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:11:11] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:11:17] slot: instagram.com | conc: 1 | delay: 2795 ms (-2204) | latency:  591 ms | size: 10472 bytes
+DEBUG    [2020-01-05 02:11:17] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:11:18] slot: 31.13.72.174 | conc: 1 | delay: 2898 ms (-2101) | latency:  796 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:11:18] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:11:23] slot: 31.13.72.174 | conc: 1 | delay: 2898 ms (+0) | latency:  363 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:11:23] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:11:27] slot: 31.13.72.174 | conc: 1 | delay: 1879 ms (-1018) | latency:  861 ms | size: 23761 bytes
+DEBUG    [2020-01-05 02:11:27] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:11:50] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-145) | latency:  590 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:11:50] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 02:12:40] Spider error processing <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\processors.py", line 32, in __call__
+    next_values += arg_to_iter(func(v))
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\items.py", line 15, in users_handler
+    fullname = item['node']['fullname']
+KeyError: 'fullname'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\__init__.py", line 159, in _process_input_value
+    return proc(value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\processors.py", line 37, in __call__
+    str(e)))
+ValueError: Error in MapCompose with <function users_handler at 0x000000000A1CA558> value=[{'node': {'id': '26037081820', 'username': 'munecamasha', 'full_name': 'Muñeca Masha', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26037081820', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26037081820', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'username': 'munecamasha'}}}}, {'node': {'id': '5697993880', 'username': 'senfox', 'full_name': 'senfox', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5697993880', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5697993880', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'username': 'senfox'}}}}, {'node': {'id': '365094284', 'username': 'galya_tango', 'full_name': 'Галина Алексеева', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '365094284', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '365094284', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'username': 'galya_tango'}}}}, {'node': {'id': '5998967327', 'username': 'marina_kalaji90', 'full_name': 'Марина Каладжи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5998967327', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5998967327', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'username': 'marina_kalaji90'}}}}, {'node': {'id': '9084959', 'username': 'natali_m', 'full_name': 'natalie_m', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9084959', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9084959', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'username': 'natali_m'}}}}, {'node': {'id': '9623427296', 'username': 'vera.mulika', 'full_name': 'ВЕРА  МУЛИКА', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9623427296', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578097935, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9623427296', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'username': 'vera.mulika'}}}}, {'node': {'id': '26491133631', 'username': 'xachapyr_nvrs79', 'full_name': 'Keik', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26491133631', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26491133631', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'username': 'xachapyr_nvrs79'}}}}, {'node': {'id': '3617376708', 'username': 'yurievichalexey', 'full_name': 'Alexey Yurievich', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3617376708', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3617376708', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'username': 'yurievichalexey'}}}}, {'node': {'id': '3562942283', 'username': 'yanabachurina', 'full_name': 'Yana Bobkina(Bachurina)', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3562942283', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3562942283', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'username': 'yanabachurina'}}}}, {'node': {'id': '18075006713', 'username': 'krovlya_novoros', 'full_name': 'Artem A', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '18075006713', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163956, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '18075006713', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'username': 'krovlya_novoros'}}}}, {'node': {'id': '23372119212', 'username': 'magnit_kosmetik_nvrsk', 'full_name': 'Магнит Косметик', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '23372119212', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '23372119212', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'username': 'magnit_kosmetik_nvrsk'}}}}, {'node': {'id': '10433364719', 'username': 'retroclubnvrsk', 'full_name': 'Ретро Клуб Новороссийска', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '10433364719', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '10433364719', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'username': 'retroclubnvrsk'}}}}, {'node': {'id': '6329297177', 'username': 'miledinovoross', 'full_name': 'Миледи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6329297177', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6329297177', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'username': 'miledinovoross'}}}}, {'node': {'id': '960335', 'username': 'pugachev_e', 'full_name': 'Пугачев Евгений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '960335', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '960335', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'username': 'pugachev_e'}}}}, {'node': {'id': '8100089980', 'username': 'aleksandr_litovchenk0', 'full_name': 'Александр Литовченко', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '8100089980', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '8100089980', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'username': 'aleksandr_litovchenk0'}}}}, {'node': {'id': '1581612742', 'username': 'bestu9l', 'full_name': 'Татьяна', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1581612742', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1581612742', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'username': 'bestu9l'}}}}, {'node': {'id': '338429476', 'username': 'khokhryakov', 'full_name': 'Alexey Khokhryakov', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '338429476', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '338429476', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'username': 'khokhryakov'}}}}, {'node': {'id': '4209043635', 'username': 'radiksafaraliev', 'full_name': '', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '4209043635', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '4209043635', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'username': 'radiksafaraliev'}}}}, {'node': {'id': '6313323505', 'username': 'video_avto77', 'full_name': '👍video_avto👍', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6313323505', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6313323505', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'username': 'video_avto77'}}}}, {'node': {'id': '5464830010', 'username': 'remont_kvartyr_v_novorossiyske', 'full_name': 'Ремонт Квартир в Новороссийске', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5464830010', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578132823, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5464830010', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'username': 'remont_kvartyr_v_novorossiyske'}}}}, {'node': {'id': '24964439457', 'username': 'artdomkrasnodar', 'full_name': 'Art Dom.krd', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '24964439457', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163817, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '24964439457', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'username': 'artdomkrasnodar'}}}}, {'node': {'id': '1381847877', 'username': 'dinaageniy', 'full_name': 'Дина Агений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1381847877', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1381847877', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'username': 'dinaageniy'}}}}] error='KeyError: 'fullname''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\spidermw.py", line 84, in evaluate_iterable
+    for r in iterable:
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\spiders.py", line 48, in data_parse
+    item.add_value('followers', jdata['edge_followed_by']['edges'])
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\__init__.py", line 78, in add_value
+    self._add_value(field_name, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\__init__.py", line 92, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\loader\__init__.py", line 164, in _process_input_value
+    value, type(e).__name__, str(e)))
+ValueError: Error with input processor MapCompose: field='followers' value=[{'node': {'id': '26037081820', 'username': 'munecamasha', 'full_name': 'Muñeca Masha', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26037081820', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26037081820', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'username': 'munecamasha'}}}}, {'node': {'id': '5697993880', 'username': 'senfox', 'full_name': 'senfox', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5697993880', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5697993880', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'username': 'senfox'}}}}, {'node': {'id': '365094284', 'username': 'galya_tango', 'full_name': 'Галина Алексеева', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '365094284', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '365094284', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'username': 'galya_tango'}}}}, {'node': {'id': '5998967327', 'username': 'marina_kalaji90', 'full_name': 'Марина Каладжи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5998967327', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5998967327', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'username': 'marina_kalaji90'}}}}, {'node': {'id': '9084959', 'username': 'natali_m', 'full_name': 'natalie_m', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9084959', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9084959', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'username': 'natali_m'}}}}, {'node': {'id': '9623427296', 'username': 'vera.mulika', 'full_name': 'ВЕРА  МУЛИКА', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9623427296', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578097935, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9623427296', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'username': 'vera.mulika'}}}}, {'node': {'id': '26491133631', 'username': 'xachapyr_nvrs79', 'full_name': 'Keik', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26491133631', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26491133631', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'username': 'xachapyr_nvrs79'}}}}, {'node': {'id': '3617376708', 'username': 'yurievichalexey', 'full_name': 'Alexey Yurievich', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3617376708', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3617376708', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'username': 'yurievichalexey'}}}}, {'node': {'id': '3562942283', 'username': 'yanabachurina', 'full_name': 'Yana Bobkina(Bachurina)', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3562942283', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3562942283', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'username': 'yanabachurina'}}}}, {'node': {'id': '18075006713', 'username': 'krovlya_novoros', 'full_name': 'Artem A', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '18075006713', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163956, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '18075006713', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'username': 'krovlya_novoros'}}}}, {'node': {'id': '23372119212', 'username': 'magnit_kosmetik_nvrsk', 'full_name': 'Магнит Косметик', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '23372119212', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '23372119212', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'username': 'magnit_kosmetik_nvrsk'}}}}, {'node': {'id': '10433364719', 'username': 'retroclubnvrsk', 'full_name': 'Ретро Клуб Новороссийска', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '10433364719', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '10433364719', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'username': 'retroclubnvrsk'}}}}, {'node': {'id': '6329297177', 'username': 'miledinovoross', 'full_name': 'Миледи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6329297177', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6329297177', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'username': 'miledinovoross'}}}}, {'node': {'id': '960335', 'username': 'pugachev_e', 'full_name': 'Пугачев Евгений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '960335', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '960335', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'username': 'pugachev_e'}}}}, {'node': {'id': '8100089980', 'username': 'aleksandr_litovchenk0', 'full_name': 'Александр Литовченко', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '8100089980', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '8100089980', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'username': 'aleksandr_litovchenk0'}}}}, {'node': {'id': '1581612742', 'username': 'bestu9l', 'full_name': 'Татьяна', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1581612742', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1581612742', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'username': 'bestu9l'}}}}, {'node': {'id': '338429476', 'username': 'khokhryakov', 'full_name': 'Alexey Khokhryakov', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '338429476', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '338429476', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'username': 'khokhryakov'}}}}, {'node': {'id': '4209043635', 'username': 'radiksafaraliev', 'full_name': '', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '4209043635', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '4209043635', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'username': 'radiksafaraliev'}}}}, {'node': {'id': '6313323505', 'username': 'video_avto77', 'full_name': '👍video_avto👍', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6313323505', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6313323505', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'username': 'video_avto77'}}}}, {'node': {'id': '5464830010', 'username': 'remont_kvartyr_v_novorossiyske', 'full_name': 'Ремонт Квартир в Новороссийске', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5464830010', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578132823, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5464830010', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'username': 'remont_kvartyr_v_novorossiyske'}}}}, {'node': {'id': '24964439457', 'username': 'artdomkrasnodar', 'full_name': 'Art Dom.krd', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '24964439457', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163817, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '24964439457', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'username': 'artdomkrasnodar'}}}}, {'node': {'id': '1381847877', 'username': 'dinaageniy', 'full_name': 'Дина Агений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1381847877', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1381847877', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'username': 'dinaageniy'}}}}] error='ValueError: Error in MapCompose with <function users_handler at 0x000000000A1CA558> value=[{'node': {'id': '26037081820', 'username': 'munecamasha', 'full_name': 'Muñeca Masha', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26037081820', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26037081820', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/80597627_529329764332196_1486107496719319040_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7Fn6-kphAakAX9SUVWL&oh=c17ff83790864c6a679f5c1e3a227118&oe=5EA6E15B', 'username': 'munecamasha'}}}}, {'node': {'id': '5697993880', 'username': 'senfox', 'full_name': 'senfox', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5697993880', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5697993880', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/29739891_157272951615008_4710024740687839232_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=Ov2Rc-y_wCwAX9vjqvO&oh=b02e57af88d14a2eee46cf0b9794d3ff&oe=5E93C4B8', 'username': 'senfox'}}}}, {'node': {'id': '365094284', 'username': 'galya_tango', 'full_name': 'Галина Алексеева', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '365094284', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '365094284', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/61063259_624320674717575_2273681778705170432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=gt9dOM8Ios4AX__m4Dc&oh=4c705256dc46e3605f134cd81441aa45&oe=5E942B70', 'username': 'galya_tango'}}}}, {'node': {'id': '5998967327', 'username': 'marina_kalaji90', 'full_name': 'Марина Каладжи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5998967327', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5998967327', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/70716937_513573986139556_6701953220211638272_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=aVuzGEZ_wu8AX_2v5j3&oh=3a24e09ba01438019c9ff9317dcac5ca&oe=5E98F99F', 'username': 'marina_kalaji90'}}}}, {'node': {'id': '9084959', 'username': 'natali_m', 'full_name': 'natalie_m', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9084959', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9084959', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/11363875_1474037496253591_1127807086_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=6Pl-IS8Oi-8AX8mDh-4&oh=3336033fd570a98625dfbf644ab1152d&oe=5EB47A4C', 'username': 'natali_m'}}}}, {'node': {'id': '9623427296', 'username': 'vera.mulika', 'full_name': 'ВЕРА  МУЛИКА', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '9623427296', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578097935, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '9623427296', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79378170_566046007594328_8511526923174674432_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=FNULoY0sa3kAX8jtm0N&oh=7eebe666c2adf79b854b9d2416c63685&oe=5EB1D1E0', 'username': 'vera.mulika'}}}}, {'node': {'id': '26491133631', 'username': 'xachapyr_nvrs79', 'full_name': 'Keik', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '26491133631', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '26491133631', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/79187719_2614436215340194_221553671761035264_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qqvR1p2GHMMAX_jF95F&oh=42ac34f14cc0336f489834a51f6d79ec&oe=5E99A4EA', 'username': 'xachapyr_nvrs79'}}}}, {'node': {'id': '3617376708', 'username': 'yurievichalexey', 'full_name': 'Alexey Yurievich', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3617376708', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3617376708', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/56414171_1633610746783338_5860949033962438656_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qkpOc2Ym2ugAX81ZTpw&oh=c6bdcee5ad64c43144d09e5e797e1046&oe=5E9A62BC', 'username': 'yurievichalexey'}}}}, {'node': {'id': '3562942283', 'username': 'yanabachurina', 'full_name': 'Yana Bobkina(Bachurina)', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '3562942283', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '3562942283', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/37294422_380963519100019_3292478137627049984_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=ZxAYCcwlkKcAX9X1hrF&oh=366af7b51e3861ec4ca6409e15f6e999&oe=5E9B1B97', 'username': 'yanabachurina'}}}}, {'node': {'id': '18075006713', 'username': 'krovlya_novoros', 'full_name': 'Artem A', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '18075006713', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163956, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '18075006713', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/68818722_409496046579497_7196551341802520576_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=L7QHyeszbzUAX_K6FXH&oh=b167034905c86259809d53480be1937b&oe=5EA0B047', 'username': 'krovlya_novoros'}}}}, {'node': {'id': '23372119212', 'username': 'magnit_kosmetik_nvrsk', 'full_name': 'Магнит Косметик', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '23372119212', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '23372119212', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/71960423_870270053369811_8648168344169480192_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=0knA9EQndisAX9gneWq&oh=0080b857bb00f03214f318f4af3ef929&oe=5E9D54AE', 'username': 'magnit_kosmetik_nvrsk'}}}}, {'node': {'id': '10433364719', 'username': 'retroclubnvrsk', 'full_name': 'Ретро Клуб Новороссийска', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '10433364719', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '10433364719', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/53691623_265163154198868_5390553362322161664_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=3MtyYqNxaB4AX-I0NRt&oh=26413a1a983f4155ea225e92b5281a78&oe=5E975A97', 'username': 'retroclubnvrsk'}}}}, {'node': {'id': '6329297177', 'username': 'miledinovoross', 'full_name': 'Миледи', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6329297177', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6329297177', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/28435732_888302531352471_6387721000380792832_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=9L0iyJPDssIAX9qnq-f&oh=06569844623e862c701dab57565f45b6&oe=5E93EDF3', 'username': 'miledinovoross'}}}}, {'node': {'id': '960335', 'username': 'pugachev_e', 'full_name': 'Пугачев Евгений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '960335', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '960335', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/64708295_437491240427382_3784533191902101504_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=JLXrIyXKrQIAX_Es-W-&oh=edca38ea068da375f26b3502376807c4&oe=5E991170', 'username': 'pugachev_e'}}}}, {'node': {'id': '8100089980', 'username': 'aleksandr_litovchenk0', 'full_name': 'Александр Литовченко', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '8100089980', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '8100089980', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/69072563_485006915653539_1354519018848911360_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=qbY8Fwlla_EAX-UZ4LO&oh=b8ecb8ffcc4dccf482afdaac6f0468b0&oe=5E95C69B', 'username': 'aleksandr_litovchenk0'}}}}, {'node': {'id': '1581612742', 'username': 'bestu9l', 'full_name': 'Татьяна', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1581612742', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1581612742', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/49443100_329941504291611_2990077367285710848_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=T_nQuT9eLZAAX_QkM6d&oh=7aac46afbc76628e4fc1b9e2fda47ae2&oe=5E975356', 'username': 'bestu9l'}}}}, {'node': {'id': '338429476', 'username': 'khokhryakov', 'full_name': 'Alexey Khokhryakov', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '338429476', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '338429476', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11356871_395012227361862_969798581_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=eAIeN9iuXckAX-LmK6z&oh=b39250c682fbc9a211b26ca0b2212613&oe=5E9854F3', 'username': 'khokhryakov'}}}}, {'node': {'id': '4209043635', 'username': 'radiksafaraliev', 'full_name': '', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'is_private': True, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '4209043635', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': None, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '4209043635', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/75640818_571612583614369_9214864655829172224_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=kmbcu1J7MeMAX_jdafD&oh=200f41d85dd78eec63d8c000d446b065&oe=5EA9A13E', 'username': 'radiksafaraliev'}}}}, {'node': {'id': '6313323505', 'username': 'video_avto77', 'full_name': '👍video_avto👍', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '6313323505', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '6313323505', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77364229_2415316472016273_1484730130772262912_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=hZdFMBNv5uUAX8SI2hN&oh=25aa1f8d25c9d6d7143d90cbed016bce&oe=5EB1D04A', 'username': 'video_avto77'}}}}, {'node': {'id': '5464830010', 'username': 'remont_kvartyr_v_novorossiyske', 'full_name': 'Ремонт Квартир в Новороссийске', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '5464830010', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578132823, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '5464830010', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77276204_503771907015663_1976667279605104640_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=HSFMwrPXL5QAX_ER4Ht&oh=1d4c9a1d13369348fe025ba955b79c42&oe=5EAC5B3A', 'username': 'remont_kvartyr_v_novorossiyske'}}}}, {'node': {'id': '24964439457', 'username': 'artdomkrasnodar', 'full_name': 'Art Dom.krd', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '24964439457', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 1578163817, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '24964439457', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/s150x150/77338339_724009648124029_747342425676054528_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=7RnXdsLzECEAX-xXuGn&oh=b3982ee549b90f7d5f7dea959966aeb6&oe=5EA8AD87', 'username': 'artdomkrasnodar'}}}}, {'node': {'id': '1381847877', 'username': 'dinaageniy', 'full_name': 'Дина Агений', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'is_private': False, 'is_verified': False, 'followed_by_viewer': False, 'requested_by_viewer': False, 'reel': {'id': '1381847877', 'expiring_at': 1578252763, 'has_pride_media': False, 'latest_reel_media': 0, 'seen': None, 'owner': {'__typename': 'GraphUser', 'id': '1381847877', 'profile_pic_url': 'https://scontent-frx5-1.cdninstagram.com/v/t51.2885-19/11142206_408177569352111_1421608187_a.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com&_nc_ohc=g0EnrDzlNdUAX9f7rsu&oh=94cb1ba0d49970e97eed6d0fdfe70598&oe=5E8D6EA9', 'username': 'dinaageniy'}}}}] error='KeyError: 'fullname'''
+INFO     [2020-01-05 02:12:40] Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:12:40] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  460 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:12:40] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-05 02:15:24] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:15:24] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:15:24] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:15:24] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:15:24] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:15:24] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:15:24] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:15:24] Spider opened
+INFO     [2020-01-05 02:15:24] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:15:26] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  448 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:15:26] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:15:33] slot: instagram.com | conc: 1 | delay: 2867 ms (-2132) | latency:  735 ms | size: 10523 bytes
+DEBUG    [2020-01-05 02:15:33] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:15:34] slot: 157.240.194.174 | conc: 1 | delay: 3000 ms (-2000) | latency: 1030 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:15:34] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:15:38] slot: 157.240.194.174 | conc: 1 | delay: 3000 ms (+0) | latency:  426 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:15:38] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:15:42] slot: 157.240.194.174 | conc: 1 | delay: 1934 ms (-1065) | latency:  869 ms | size: 23755 bytes
+DEBUG    [2020-01-05 02:15:42] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:15:44] slot: 157.240.194.174 | conc: 1 | delay: 1734 ms (-200) | latency:  514 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:15:44] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 02:22:22] Error processing {'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': [11751898],
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 16, 38, 454509),
+ 'username': ['gefestart']}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 23, in process_item
+    doc = self.collection.find_one( {"identity": item['identity']} )
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 94, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 174, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+INFO     [2020-01-05 02:22:22] Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:22:22] slot: 157.240.194.174 | conc: 1 | delay: 1734 ms (+0) | latency:  461 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:22:22] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 02:22:23] Error processing {'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': [11751898],
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 22, 22, 966048),
+ 'username': ['gefestart']}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 23, in process_item
+    doc = self.collection.find_one( {"identity": item['identity']} )
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\collection.py", line 1102, in find_one
+    for result in cursor.limit(-1):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1114, in next
+    if len(self.__data) or self._refresh():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1036, in _refresh
+    self.__collation))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 873, in __send_message
+    **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 905, in _send_message_with_response
+    exhaust)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 916, in _reset_on_error
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 99, in send_message_with_response
+    with self.get_socket(all_credentials, exhaust) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 168, in get_socket
+    with self.pool.get_socket(all_credentials, checkout) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 792, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 512, in check_auth
+    auth.authenticate(credentials, self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 470, in authenticate
+    auth_func(credentials, sock_info)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 450, in _authenticate_default
+    return _authenticate_scram_sha1(credentials, sock_info)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 201, in _authenticate_scram_sha1
+    res = sock_info.command(source, cmd)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 419, in command
+    collation=collation)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 116, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\helpers.py", line 210, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+INFO     [2020-01-05 02:22:23] Closing spider (finished)
+INFO     [2020-01-05 02:22:23] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50885,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 418.343081,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 4, 23, 22, 23, 184931),
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 16,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 23, 15, 24, 841850)}
+INFO     [2020-01-05 02:22:23] Spider closed (finished)
+INFO     [2020-01-05 02:26:29] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:26:29] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:26:29] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:26:29] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:26:29] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:26:29] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:26:29] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:26:29] Spider opened
+INFO     [2020-01-05 02:26:29] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:26:31] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  838 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:26:31] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:26:36] slot: instagram.com | conc: 1 | delay: 2837 ms (-2162) | latency:  675 ms | size: 10548 bytes
+DEBUG    [2020-01-05 02:26:36] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:26:37] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (-2000) | latency: 1056 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:26:37] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:26:40] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (+0) | latency:  327 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:26:40] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:26:43] slot: 31.13.72.174 | conc: 1 | delay: 1929 ms (-1070) | latency:  859 ms | size: 23760 bytes
+DEBUG    [2020-01-05 02:26:43] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:26:45] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-195) | latency:  392 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:26:45] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+INFO     [2020-01-05 02:37:21] Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+CRITICAL [2020-01-05 02:37:21] Unhandled error in Deferred:
+CRITICAL [2020-01-05 02:37:21] 
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 23, in process_item
+    doc = self.collection.find_one( {"identity": item['identity']} )
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\collection.py", line 1102, in find_one
+    for result in cursor.limit(-1):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1114, in next
+    if len(self.__data) or self._refresh():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1036, in _refresh
+    self.__collation))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 873, in __send_message
+    **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 905, in _send_message_with_response
+    exhaust)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 916, in _reset_on_error
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 99, in send_message_with_response
+    with self.get_socket(all_credentials, exhaust) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 168, in get_socket
+    with self.pool.get_socket(all_credentials, checkout) as sock_info:
+  File "C:\ProgramData\Anaconda3\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 792, in get_socket
+    sock_info.check_auth(all_credentials)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 512, in check_auth
+    auth.authenticate(credentials, self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 470, in authenticate
+    auth_func(credentials, sock_info)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 450, in _authenticate_default
+    return _authenticate_scram_sha1(credentials, sock_info)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\auth.py", line 201, in _authenticate_scram_sha1
+    res = sock_info.command(source, cmd)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 419, in command
+    collation=collation)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 116, in command
+    parse_write_concern_error=parse_write_concern_error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\helpers.py", line 210, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+pymongo.errors.OperationFailure: Authentication failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\task.py", line 517, in _oneWorkUnit
+    result = next(self._iterator)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 63, in <genexpr>
+    work = (callable(elem, *args, **named) for elem in iterable)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\core\scraper.py", line 187, in _process_spidermw_output
+    dfd = self.itemproc.process_item(output, spider)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\pipelines\__init__.py", line 24, in process_item
+    return self._process_chain('process_item', item, spider)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\middleware.py", line 65, in _process_chain
+    return process_chain(self.methods[methodname], obj, *args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\scrapy\utils\defer.py", line 71, in process_chain
+    d.callback(input)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 460, in callback
+    self._startRunCallbacks(result)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 568, in _startRunCallbacks
+    self._runCallbacks()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 667, in _runCallbacks
+    current.result = failure.Failure(captureVars=self.debug)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\python\failure.py", line 238, in __init__
+    def __init__(self, exc_value=None, exc_type=None, exc_tb=None,
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 90, in trace_dispatch
+    return self.dispatch_call(frame, arg)
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 135, in dispatch_call
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+INFO     [2020-01-05 02:37:21] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  412 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:37:21] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 02:37:22] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d>
+{'_id': ObjectId('5e1121b2b02b1a088c2c388e'),
+ 'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 37, 21, 506019),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 02:37:22] Closing spider (finished)
+INFO     [2020-01-05 02:37:22] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50915,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 653.007283,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 4, 23, 37, 22, 600917),
+ 'item_scraped_count': 1,
+ 'log_count/CRITICAL': 2,
+ 'log_count/DEBUG': 8,
+ 'log_count/INFO': 16,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 23, 26, 29, 593634)}
+INFO     [2020-01-05 02:37:22] Spider closed (finished)
+INFO     [2020-01-05 02:37:35] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:37:35] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:37:35] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:37:35] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:37:35] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:37:35] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:37:35] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:37:35] Spider opened
+INFO     [2020-01-05 02:37:35] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:37:59] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:37:59] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:37:59] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:37:59] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:38:00] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:38:00] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:38:00] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:38:00] Spider opened
+INFO     [2020-01-05 02:38:00] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:38:15] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  599 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:38:15] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:38:21] slot: instagram.com | conc: 1 | delay: 2924 ms (-2075) | latency:  849 ms | size: 10493 bytes
+DEBUG    [2020-01-05 02:38:21] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:38:23] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (-2000) | latency: 1138 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:38:23] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:38:28] slot: 31.13.72.174 | conc: 1 | delay: 3000 ms (+0) | latency:  409 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:38:28] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:38:32] slot: 31.13.72.174 | conc: 1 | delay: 1866 ms (-1133) | latency:  732 ms | size: 23755 bytes
+DEBUG    [2020-01-05 02:38:32] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:38:35] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-132) | latency:  455 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:38:35] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 02:39:55] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d>
+{'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 38, 35, 409984),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 02:39:56] Crawled 4 pages (at 4 pages/min), scraped 1 items (at 1 items/min)
+INFO     [2020-01-05 02:39:56] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  669 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:39:56] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 02:40:52] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d>
+{'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 39, 56, 785878),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 02:40:52] Crawled 5 pages (at 1 pages/min), scraped 2 items (at 1 items/min)
+INFO     [2020-01-05 02:40:52] Closing spider (finished)
+INFO     [2020-01-05 02:40:53] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50882,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 172.626374,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 4, 23, 40, 52, 998880),
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 17,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 23, 38, 0, 372506)}
+INFO     [2020-01-05 02:40:53] Spider closed (finished)
+INFO     [2020-01-05 02:41:53] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:41:53] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:41:53] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:41:53] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:41:53] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:41:53] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:41:53] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:41:53] Spider opened
+INFO     [2020-01-05 02:41:53] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:42:05] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:42:05] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:42:05] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:42:06] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:42:06] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:42:06] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:42:06] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:42:06] Spider opened
+INFO     [2020-01-05 02:42:06] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:42:07] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  439 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:42:07] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:42:13] slot: instagram.com | conc: 1 | delay: 2743 ms (-2256) | latency:  487 ms | size: 10550 bytes
+DEBUG    [2020-01-05 02:42:13] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:42:14] slot: 31.13.72.174 | conc: 1 | delay: 2846 ms (-2153) | latency:  692 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:42:14] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:42:20] slot: 31.13.72.174 | conc: 1 | delay: 2846 ms (+0) | latency:  249 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:42:20] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:42:24] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-1112) | latency:  423 ms | size: 23753 bytes
+DEBUG    [2020-01-05 02:42:24] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:42:26] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  362 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:42:26] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 02:49:38] Error processing {'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 42, 26, 729998),
+ 'username': 'gefestart'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 29, in process_item
+    return item
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 29, in process_item
+    return item
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+INFO     [2020-01-05 02:49:38] Crawled 4 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:49:38] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  592 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:49:38] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 02:49:38] Error processing {'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 49, 38, 718753),
+ 'username': 'gefestart'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 450, in receive_message
+    self.sock, operation, request_id, self.max_message_size)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 137, in receive_message
+    header = _receive_data_on_socket(sock, 16)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\network.py", line 164, in _receive_data_on_socket
+    chunk = sock.recv(length)
+ConnectionResetError: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 23, in process_item
+    doc = self.collection.find_one( {"identity": item['identity']} )
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\collection.py", line 1102, in find_one
+    for result in cursor.limit(-1):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1114, in next
+    if len(self.__data) or self._refresh():
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 1036, in _refresh
+    self.__collation))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\cursor.py", line 873, in __send_message
+    **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 905, in _send_message_with_response
+    exhaust)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\mongo_client.py", line 916, in _reset_on_error
+    return func(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\server.py", line 136, in send_message_with_response
+    response_data = sock_info.receive_message(1, request_id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 452, in receive_message
+    self._raise_connection_failure(error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 550, in _raise_connection_failure
+    _raise_connection_failure(self.address, error)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pymongo\pool.py", line 211, in _raise_connection_failure
+    raise AutoReconnect(msg)
+pymongo.errors.AutoReconnect: gbubuntu.tk:27017: [WinError 10054] Удаленный хост принудительно разорвал существующее подключение
+INFO     [2020-01-05 02:49:39] Closing spider (finished)
+INFO     [2020-01-05 02:49:39] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50909,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 452.728662,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 4, 23, 49, 39, 5222),
+ 'log_count/DEBUG': 7,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 16,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 23, 42, 6, 276560)}
+INFO     [2020-01-05 02:49:39] Spider closed (finished)
+INFO     [2020-01-05 02:56:08] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:56:08] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:56:08] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:56:08] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:56:08] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:56:08] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:56:08] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:56:08] Spider opened
+INFO     [2020-01-05 02:56:08] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:56:22] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 02:56:22] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 02:56:22] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 02:56:22] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 02:56:23] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 02:56:23] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 02:56:23] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 02:56:23] Spider opened
+INFO     [2020-01-05 02:56:23] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 02:56:24] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  440 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:56:24] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 02:56:29] slot: instagram.com | conc: 1 | delay: 2804 ms (-2195) | latency:  609 ms | size: 10475 bytes
+DEBUG    [2020-01-05 02:56:29] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:56:30] slot: 31.13.72.174 | conc: 1 | delay: 2988 ms (-2011) | latency:  977 ms | size:   101 bytes
+DEBUG    [2020-01-05 02:56:30] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 02:56:37] slot: 31.13.72.174 | conc: 1 | delay: 2988 ms (+0) | latency:  410 ms | size:     0 bytes
+DEBUG    [2020-01-05 02:56:37] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 02:56:41] slot: 31.13.72.174 | conc: 1 | delay: 1900 ms (-1088) | latency:  811 ms | size: 23757 bytes
+DEBUG    [2020-01-05 02:56:41] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 02:56:44] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-166) | latency:  472 ms | size:   179 bytes
+DEBUG    [2020-01-05 02:56:44] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 02:57:23] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d>
+{'_id': ObjectId('5e11265fb02b1a180ca138f2'),
+ 'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 56, 45, 25002),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 02:57:23] Crawled 4 pages (at 4 pages/min), scraped 1 items (at 1 items/min)
+INFO     [2020-01-05 02:57:23] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  337 ms | size:   125 bytes
+DEBUG    [2020-01-05 02:57:23] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+ERROR    [2020-01-05 03:04:50] Error processing {'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 2, 57, 23, 617124),
+ 'username': 'gefestart'}
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\ErshovAA\Documents\Python Scripts\CollectProcessData\Lesson6\pipelines.py", line 32, in process_item
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 94, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "C:\ProgramData\Anaconda3\lib\bdb.py", line 174, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
+INFO     [2020-01-05 03:04:50] Crawled 5 pages (at 1 pages/min), scraped 1 items (at 0 items/min)
+INFO     [2020-01-05 03:04:50] Closing spider (finished)
+INFO     [2020-01-05 03:04:50] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50865,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 507.524171,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 5, 0, 4, 50, 640362),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 8,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 17,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 4, 23, 56, 23, 116191)}
+INFO     [2020-01-05 03:04:50] Spider closed (finished)
+INFO     [2020-01-05 03:05:31] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 03:05:31] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 03:05:31] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 03:05:31] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 03:05:31] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 03:05:31] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 03:05:31] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 03:05:31] Spider opened
+INFO     [2020-01-05 03:05:31] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 03:05:33] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  375 ms | size:     0 bytes
+DEBUG    [2020-01-05 03:05:33] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 03:05:39] slot: instagram.com | conc: 1 | delay: 2810 ms (-2189) | latency:  620 ms | size: 10531 bytes
+DEBUG    [2020-01-05 03:05:39] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 03:05:40] slot: 31.13.72.174 | conc: 1 | delay: 2904 ms (-2095) | latency:  808 ms | size:   101 bytes
+DEBUG    [2020-01-05 03:05:40] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 03:05:45] slot: 31.13.72.174 | conc: 1 | delay: 2904 ms (+0) | latency:  870 ms | size:     0 bytes
+DEBUG    [2020-01-05 03:05:45] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 03:05:49] slot: 31.13.72.174 | conc: 1 | delay: 1871 ms (-1033) | latency:  837 ms | size: 23779 bytes
+DEBUG    [2020-01-05 03:05:49] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 03:05:52] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-137) | latency:  472 ms | size:   179 bytes
+DEBUG    [2020-01-05 03:05:52] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 03:06:25] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d>
+{'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 3, 5, 53, 41170),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 03:06:25] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  323 ms | size:   125 bytes
+DEBUG    [2020-01-05 03:06:25] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 03:06:37] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d>
+{'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 3, 6, 25, 983795),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 03:06:37] Crawled 5 pages (at 5 pages/min), scraped 2 items (at 2 items/min)
+INFO     [2020-01-05 03:06:37] Closing spider (finished)
+INFO     [2020-01-05 03:06:37] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50916,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 65.832418,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 5, 0, 6, 37, 750960),
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 16,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 5, 0, 5, 31, 918542)}
+INFO     [2020-01-05 03:06:37] Spider closed (finished)
+INFO     [2020-01-05 03:08:27] Scrapy 1.8.0 started (bot: gbinstagram)
+INFO     [2020-01-05 03:08:27] Versions: lxml 4.4.1.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.7, Platform Windows-7-6.1.7601-SP1
+INFO     [2020-01-05 03:08:27] Overridden settings: {'AUTOTHROTTLE_DEBUG': True, 'AUTOTHROTTLE_ENABLED': True, 'AUTOTHROTTLE_MAX_DELAY': 3, 'BOT_NAME': 'gbinstagram', 'CONCURRENT_REQUESTS': 8, 'CONCURRENT_REQUESTS_PER_DOMAIN': 16, 'CONCURRENT_REQUESTS_PER_IP': 16, 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 1.734, 'LOG_FILE': 'InstagramLog.log', 'LOG_FORMAT': '%(levelname)-8s [%(asctime)s] %(message)s', 'NEWSPIDER_MODULE': 'spiders', 'SPIDER_MODULES': ['spiders'], 'TELNETCONSOLE_ENABLED': False, 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'}
+INFO     [2020-01-05 03:08:27] Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO     [2020-01-05 03:08:28] Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO     [2020-01-05 03:08:28] Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO     [2020-01-05 03:08:29] Enabled item pipelines:
+['pipelines.InstagramUsersPipeline']
+INFO     [2020-01-05 03:08:29] Spider opened
+INFO     [2020-01-05 03:08:29] Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO     [2020-01-05 03:08:30] slot: instagram.com | conc: 1 | delay: 5000 ms (+0) | latency:  455 ms | size:     0 bytes
+DEBUG    [2020-01-05 03:08:30] Redirecting (301) to <GET https://www.instagram.com/> from <GET http://instagram.com>
+INFO     [2020-01-05 03:08:36] slot: instagram.com | conc: 1 | delay: 2802 ms (-2197) | latency:  604 ms | size: 10539 bytes
+DEBUG    [2020-01-05 03:08:36] Crawled (200) <GET https://www.instagram.com/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 03:08:37] slot: 31.13.72.174 | conc: 1 | delay: 2986 ms (-2013) | latency:  973 ms | size:   101 bytes
+DEBUG    [2020-01-05 03:08:37] Crawled (200) <POST https://www.instagram.com/accounts/login/ajax/> (referer: https://www.instagram.com/)
+INFO     [2020-01-05 03:08:41] slot: 31.13.72.174 | conc: 1 | delay: 2986 ms (+0) | latency:  292 ms | size:     0 bytes
+DEBUG    [2020-01-05 03:08:41] Redirecting (301) to <GET https://www.instagram.com/gefestart/> from <GET https://www.instagram.com/gefestart>
+INFO     [2020-01-05 03:08:45] slot: 31.13.72.174 | conc: 1 | delay: 1881 ms (-1105) | latency:  775 ms | size: 23754 bytes
+DEBUG    [2020-01-05 03:08:45] Crawled (200) <GET https://www.instagram.com/gefestart/> (referer: https://www.instagram.com/accounts/login/ajax/)
+INFO     [2020-01-05 03:08:49] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (-147) | latency:  288 ms | size:   179 bytes
+DEBUG    [2020-01-05 03:08:49] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 03:08:49] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=c76146de99bb02f6415203be841dd25a&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3atrue%2c%22first%22%3a24%7d>
+{'_id': ObjectId('5e112911b02b1a172cbce9ef'),
+ 'followers': [{'full_name': 'Muñeca Masha',
+                'identity': 26037081820,
+                'username': 'munecamasha'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Марина Каладжи',
+                'identity': 5998967327,
+                'username': 'marina_kalaji90'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ВЕРА  МУЛИКА',
+                'identity': 9623427296,
+                'username': 'vera.mulika'},
+               {'full_name': 'Keik',
+                'identity': 26491133631,
+                'username': 'xachapyr_nvrs79'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': 'Artem A',
+                'identity': 18075006713,
+                'username': 'krovlya_novoros'},
+               {'full_name': 'Магнит Косметик',
+                'identity': 23372119212,
+                'username': 'magnit_kosmetik_nvrsk'},
+               {'full_name': 'Ретро Клуб Новороссийска',
+                'identity': 10433364719,
+                'username': 'retroclubnvrsk'},
+               {'full_name': 'Миледи',
+                'identity': 6329297177,
+                'username': 'miledinovoross'},
+               {'full_name': 'Пугачев Евгений',
+                'identity': 960335,
+                'username': 'pugachev_e'},
+               {'full_name': 'Александр Литовченко',
+                'identity': 8100089980,
+                'username': 'aleksandr_litovchenk0'},
+               {'full_name': 'Татьяна',
+                'identity': 1581612742,
+                'username': 'bestu9l'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': '',
+                'identity': 4209043635,
+                'username': 'radiksafaraliev'},
+               {'full_name': '👍video_avto👍',
+                'identity': 6313323505,
+                'username': 'video_avto77'},
+               {'full_name': 'Ремонт Квартир в Новороссийске',
+                'identity': 5464830010,
+                'username': 'remont_kvartyr_v_novorossiyske'},
+               {'full_name': 'Art Dom.krd',
+                'identity': 24964439457,
+                'username': 'artdomkrasnodar'},
+               {'full_name': 'Дина Агений',
+                'identity': 1381847877,
+                'username': 'dinaageniy'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 3, 8, 49, 218956),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 03:08:51] slot: 31.13.72.174 | conc: 1 | delay: 1734 ms (+0) | latency:  261 ms | size:   125 bytes
+DEBUG    [2020-01-05 03:08:51] Crawled (200) <GET https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d> (referer: https://www.instagram.com/gefestart/)
+DEBUG    [2020-01-05 03:08:51] Scraped from <200 https://www.instagram.com/graphql/query/?query_hash=d04b0a864b4b54837c0d870b0e77e076&variables=%7b%22id%22%3a%2211751898%22%2c%22include_reel%22%3atrue%2c%22fetch_mutual%22%3afalse%2c%22first%22%3a24%7d>
+{'following': [{'full_name': 'Амина',
+                'identity': 26445025389,
+                'username': 'vissora'},
+               {'full_name': 'natalie_m',
+                'identity': 9084959,
+                'username': 'natali_m'},
+               {'full_name': 'ККООЛС "Полли"',
+                'identity': 2071133226,
+                'username': 'dog_nvrsk'},
+               {'full_name': 'Alexey Yurievich',
+                'identity': 3617376708,
+                'username': 'yurievichalexey'},
+               {'full_name': 'Yana Bobkina(Bachurina)',
+                'identity': 3562942283,
+                'username': 'yanabachurina'},
+               {'full_name': '🇬🇧 АНГЛИЙСКИЙ ЯЗЫК ДЛЯ ВСЕХ',
+                'identity': 3410296128,
+                'username': 'cathie_teacher'},
+               {'full_name': 'Ведомственный контроль',
+                'identity': 19204440677,
+                'username': 'novoros_control'},
+               {'full_name': 'Люди. Места. События.',
+                'identity': 2218669198,
+                'username': 'top25krd'},
+               {'full_name': 'Городская больница',
+                'identity': 10026495401,
+                'username': 'gorbolnica1nvrsk'},
+               {'full_name': 'МАЛАЯ ЗЕМЛЯ',
+                'identity': 11053775935,
+                'username': 'malazem.info'},
+               {'full_name': 'Блокнот_НовороссийскЧП',
+                'identity': 8595444799,
+                'username': 'bloknot_novorossiysk_chp'},
+               {'full_name': '',
+                'identity': 21791413365,
+                'username': 'voronina_tatyana_vas'},
+               {'full_name': 'Приморский Район 🇷🇺',
+                'identity': 2954425356,
+                'username': 'primorskaya_adm'},
+               {'full_name': '',
+                'identity': 18654048559,
+                'username': 'kalinina_svetlana_vladimirovna'},
+               {'full_name': 'Администрация Новороссийск',
+                'identity': 14980003791,
+                'username': 'admnvrsk_'},
+               {'full_name': 'СРО "АСПП" г. Новороссийск',
+                'identity': 4400331606,
+                'username': 'aspp_nvrsk'},
+               {'full_name': 'Alexey Khokhryakov',
+                'identity': 338429476,
+                'username': 'khokhryakov'},
+               {'full_name': 'senfox',
+                'identity': 5697993880,
+                'username': 'senfox'},
+               {'full_name': 'Галина Алексеева',
+                'identity': 365094284,
+                'username': 'galya_tango'},
+               {'full_name': 'Михаил',
+                'identity': 393463476,
+                'username': 'winklnix'},
+               {'full_name': 'Новороссийск ТРК Новая Россия',
+                'identity': 4537441654,
+                'username': 'tv_novros'},
+               {'full_name': 'Умный город Новороссийск',
+                'identity': 13319099989,
+                'username': 'smart_nvrsk'},
+               {'full_name': 'Официальный Новороссийск',
+                'identity': 7385205552,
+                'username': 'ofnvrsk'},
+               {'full_name': '',
+                'identity': 1266939790,
+                'username': 'borninnvmbr'}],
+ 'full_name': 'Сергей',
+ 'identity': 11751898,
+ 'parse_date': datetime.datetime(2020, 1, 5, 3, 8, 51, 233995),
+ 'username': 'gefestart'}
+INFO     [2020-01-05 03:08:51] Closing spider (finished)
+INFO     [2020-01-05 03:08:51] Dumping Scrapy stats:
+{'downloader/request_bytes': 3378,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/request_method_count/POST': 1,
+ 'downloader/response_bytes': 50953,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 21.947879,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 1, 5, 0, 8, 51, 663645),
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 15,
+ 'request_depth_max': 3,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2020, 1, 5, 0, 8, 29, 715766)}
+INFO     [2020-01-05 03:08:51] Spider closed (finished)
