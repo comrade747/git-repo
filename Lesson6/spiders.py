@@ -88,8 +88,9 @@ class InstagramSpider(CrawlSpider):
         
         patern = re.compile('const t=\"\S+\",n=\"\S+\"')
         result = patern.search(response.text).group().split(',')
-        fwersqhash = result[0].split('=')[1].replace('"', '')
-        fwingqhash = result[1].split('=')[1].replace('"', '')
+        lamfun = lambda x: x.split('=')[1].replace('"', '')
+        fwersqhash = lamfun(result[0])
+        fwingqhash = lamfun(result[1])
         user_info.update({"followers_query_hash": fwersqhash,
                           "following_query_hash": fwingqhash,})
         
