@@ -47,11 +47,6 @@ def readPersonViaJson(fileName):
     return dict(result)
 
 
-def fetch_query_hash(text):
-    # todo https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
-    return 'c76146de99bb02f6415203be841dd25a'
-
-
 def fetch_csrf_token(text):
     result = re.search('\"csrf_token\"\:\"\w+\"', text).group()
     return result.split(':').pop().replace(r'"', '')
@@ -78,7 +73,7 @@ def get_user_common_info(response:HtmlResponse, username):
         following = int(text[2][:2])
     except Exception as e:
         print(e)
-    return dict({'user_id': user_id, 
+    return dict({'identity': user_id, 
                  'full_name': full_name, 
                  'username': username, 
                  'followers': followers, 
