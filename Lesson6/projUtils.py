@@ -11,6 +11,12 @@ from codecs import decode
 from bs4 import BeautifulSoup
 from scrapy.http.response.html import HtmlResponse
 from enum import Enum
+import requests
+
+
+lamfun1 = lambda x, y: x.search(y).group().split(' ')[2][5:-1]
+lamfun2 = lambda x: x.split('=')[1].replace('"', '')
+start_url = "https://www.instagram.com"
 
 
 class UserRelationshipStatus(Enum):
@@ -34,7 +40,7 @@ def savePersonViaJson(self, person):
     return result
 
 
-def readPersonViaJson(fileName):
+def readPersonViaJson(fileName) -> dict:
     result = dict()
     try:
         with open(fileName, 'r') as f:
@@ -47,7 +53,7 @@ def readPersonViaJson(fileName):
     return dict(result)
 
 
-def fetch_csrf_token(text):
+def fetch_csrf_token(text) -> str:
     result = re.search('\"csrf_token\"\:\"\w+\"', text).group()
     return result.split(':').pop().replace(r'"', '')
 
@@ -59,7 +65,32 @@ def decode_text(text):
     return printable_text
 
 
-def get_user_common_info(response:HtmlResponse, username):
+def get_profile_hash(text:str) -> str:
+    """
+    https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
+    """
+    patern = re.compile('script type=\"text/javascript\" src=\"\S+ProfilePageContainer.js\S+\"')
+    result = lamfun1(patern, text)
+    response = requests.get(f'{start_url}{result}')
+    patern = re.compile('const l=\"\S+\"')
+    result = patern.search(response.text).group().split('=')[1][1:-1]
+    return result
+    
+
+def get_consumer_hash(text:str) -> dict:
+    """
+    https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
+    """
+    patern = re.compile('script type=\"text/javascript\" src=\"\S+Consumer.js\S+\"')
+    result = lamfun1(patern, text)
+    response = requests.get(f'{start_url}{result}')
+    patern = re.compile('const t=\"\S+\",n=\"\S+\"')
+    result = patern.search(response.text).group().split(',')
+    return dict({"followers_query_hash": lamfun2(result[0]),
+                 "following_query_hash": lamfun2(result[1]),})
+    
+    
+def get_user_common_info(response:HtmlResponse, username) -> dict:
     soup = BeautifulSoup(response.text, 'lxml')
     data = soup.find_all('meta', attrs={'property':'og:description'})
     text = data[0].get('content').split()

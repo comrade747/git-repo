@@ -15,7 +15,7 @@ from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http.response.html import HtmlResponse
 import projUtils as pu
-import re
+
 
 #class HHVacancyLoader(ItemLoader):
 #    default_output_processor = Identity()
@@ -24,13 +24,14 @@ import re
 class InstagramSpider(CrawlSpider):
     name = "instagram"
     allowed_domains = ["instagram.com"]
-    start_urls = ["http://instagram.com"]
+    start_urls = ["https://www.instagram.com"]
     insta_login = 'd9976421'
     insta_passw = 'ddpA343Q'
     insta_login_link = 'https://www.instagram.com/accounts/login/ajax/'
     insta_parse_user = 'gefestart'
     insta_graphql_url = 'https://www.instagram.com/graphql/query/?'
-
+    
+    url_converter = lambda self, x: x.lower().replace("%27", "%22").replace("+", "")
 
     def add_users(self, users):
         for user_info in users:
@@ -85,74 +86,51 @@ class InstagramSpider(CrawlSpider):
     def userdata_parse(self, response:HtmlResponse, user_info:dict):
         if user_info['followers'] == 0 and user_info['following'] == 0:
             return
-        
-        patern = re.compile('const t=\"\S+\",n=\"\S+\"')
-        result = patern.search(response.text).group().split(',')
-        lamfun = lambda x: x.split('=')[1].replace('"', '')
-        fwersqhash = lamfun(result[0])
-        fwingqhash = lamfun(result[1])
-        user_info.update({"followers_query_hash": fwersqhash,
-                          "following_query_hash": fwingqhash,})
+
+        fwersqhash = user_info.get('followers_query_hash')
+        fwingqhash = user_info.get('following_query_hash')
         
         query_vars = {"id":user_info.get('identity'),
                       "include_reel":True,
                       "fetch_mutual":True,
                       "first":24, }
         
-        if user_info['followers'] != 0:
+        if user_info['followers'] > 0:
             url = f'{self.insta_graphql_url}query_hash={fwersqhash}&{urlencode({"variables": query_vars})}'
             yield response.follow(
-                    url.lower().replace("%27", "%22").replace("+", ""),
+                    self.url_converter(url),
                     self.data_parse,
                     cb_kwargs={ 'userStatus': pu.UserRelationshipStatus.FOLLOWER, 'user_info': user_info }
                     )
         
-        if user_info['following'] != 0:
+        if user_info['following'] > 0:
             query_vars.update ({ "fetch_mutual":False, })
             url = f'{self.insta_graphql_url}query_hash={fwingqhash}&{urlencode({"variables": query_vars})}'
             yield response.follow(
-                    url.lower().replace("%27", "%22").replace("+", ""),
+                    self.url_converter(url),
                     self.data_parse,
                     cb_kwargs={ 'userStatus': pu.UserRelationshipStatus.FOLLOWING, 'user_info': user_info }
                     )
     
-    
-    def fetch_consumer_hash(self, response:HtmlResponse, user_info:dict):
-        url = 'https://www.instagram.com/static/bundles/es6/Consumer.js/fe3c1e08517f.js'
-        yield response.follow(
-                    url,
-                    self.userdata_parse,
-                    cb_kwargs={'user_info': user_info}
-                    )
-        
         
     def userprofile_parce(self, response:HtmlResponse, user_info:dict):
-        patern = re.compile('const l=\"\S+\"')
-        result = patern.search(response.text).group().split('=')[1]
-        pqhash = result.replace('"', '')
-        user_info.update({"profile_query_hash": pqhash})
-        query_vars = {"user_id":user_info.get('identity'),
+        uci = pu.get_user_common_info(response, user_info.get('username'))
+        prflhash = pu.get_profile_hash(response.text)
+        uci.update({"profile_query_hash": prflhash})
+        consumer_hash = pu.get_consumer_hash(response.text)
+        uci.update(consumer_hash)
+        
+        query_vars = {"user_id":uci.get('identity'),
                      "include_chaining":True,
                      "include_reel":True,
                      "include_suggested_users":False,
                      "include_logged_out_extras":False,
                      "include_highlight_reels":True,
                      "include_related_profiles":False, }
-        url = f'{self.insta_graphql_url}query_hash={pqhash}&{urlencode({"variables": query_vars})}' 
+        url = f'{self.insta_graphql_url}query_hash={prflhash}&{urlencode({"variables": query_vars})}' 
         yield response.follow(
-                    url.lower().replace("%27", "%22").replace("+", ""),
-                    self.fetch_consumer_hash,
-                    cb_kwargs={'user_info': user_info}
-                    )
-        
-        
-    # https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
-    def fetch_profile_hash(self, response:HtmlResponse, user_info:dict):
-        uci = pu.get_user_common_info(response, user_info.get('username'))
-        url = 'https://www.instagram.com/static/bundles/es6/ProfilePageContainer.js/c8361c7cffc6.js'
-        yield response.follow(
-                    url,
-                    self.userprofile_parce,
+                    self.url_converter(url),
+                    self.userdata_parse,
                     cb_kwargs={'user_info': uci}
                     )
         
@@ -164,7 +142,7 @@ class InstagramSpider(CrawlSpider):
             yield response.follow(
                     f'/{self.insta_parse_user}',
 #                    callback=self.userdata_parse,
-                    callback=self.fetch_profile_hash,
+                    callback=self.userprofile_parce,
                     cb_kwargs={'user_info': user_info}
                     )
         
@@ -175,7 +153,10 @@ class InstagramSpider(CrawlSpider):
             url=self.insta_login_link, 
             method='POST',
             callback=self.user_parse,
-            formdata={'username': self.insta_login, 'password': self.insta_passw},
-            headers={'X-CSRFToken': csrf_token}
+            formdata={'username': self.insta_login,
+                      'password': self.insta_passw,},
+            headers={'X-CSRFToken': csrf_token,
+                     'X-Instagram-AJAX':'1',
+                     'X-Requested-With':'XMLHttpRequest',}
                 )
         
