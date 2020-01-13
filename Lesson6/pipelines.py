@@ -6,15 +6,17 @@ Created on Sat Dec 21 15:22:07 2019
 """
 from pymongo import MongoClient
 import datetime
+import settings as sts
 
 
 class InstagramUsersPipeline(object):
     
     def __init__(self):
-        connection = MongoClient('raspberry', 27017)
-#        connection = MongoClient('gbubuntu.tk', 27017)
-        connection.geekbrains.authenticate('sysdba', 'masterkey')
-        self.collection = connection.geekbrains.InstagramUsers
+        connection = MongoClient(sts.DB_HOST, 27017)
+        #connection = MongoClient('gbubuntu.tk', 27017)
+        #connection.geekbrains.authenticate('sysdba', 'masterkey')
+        connection[sts.DB_NAME].authenticate('sysdba', 'masterkey')
+        self.collection = connection[sts.DB_NAME].InstagramUsers
         
         
     def process_item(self, item, spider):
@@ -27,11 +29,9 @@ class InstagramUsersPipeline(object):
             userStatus = 'followers'
             if userStatus in item:
                 self.update_collection(userStatus, item, doc)
-#                doc.update({ 'followers': item['followers'] })
             userStatus = 'following'
             if userStatus in item:
                 self.update_collection(userStatus, item, doc)
-#                doc.update({ 'following': item['following'] })
 
             self.collection.replace_one(filter=filt, replacement=doc)
         return item

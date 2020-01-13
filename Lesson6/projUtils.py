@@ -5,13 +5,15 @@ Created on Sat Jan  4 20:28:42 2020
 @author: ErshovAA
 """
 import re, string
-import json
+import json, pickle
 from os import getcwd as current_path
 from codecs import decode
 from bs4 import BeautifulSoup
 from scrapy.http.response.html import HtmlResponse
 from enum import Enum
 import requests
+from items import InstagramUser
+from scrapy.loader import ItemLoader
 
 
 lamfun1 = lambda x, y: x.search(y).group().split(' ')[2][5:-1]
@@ -25,9 +27,36 @@ class UserRelationshipStatus(Enum):
     FOLLOWING = 2
 
 
-def savePersonViaJson(self, person):
+def savePersonViaPickle(person) -> str:
     result = None
-    fullFileName = f'{current_path()}\\{self.insta_parse_user}.json'
+    fullFileName = f'{current_path()}\\person.dat'
+    try:
+        with open(fullFileName, 'wb') as f:
+            pickle.dump(person, f)
+
+        print('Объект записан')
+    except:
+        print('Объект записать не удалось')
+    result = fullFileName
+    return result
+
+
+def readPersonViaPickle(fileName) -> object:
+    result = None
+    try:
+        with open(fileName, 'rb') as f:
+            result = pickle.load(f)
+
+        print('Объект считан')
+    except:
+        print('Объект прочитать не удалось')
+
+    return result
+
+
+def savePersonViaJson(person) -> str:
+    result = None
+    fullFileName = f'{current_path()}\\profile.json'
     try:
         with open(fullFileName, 'w') as f:
             json.dump(person, f)
@@ -65,6 +94,26 @@ def decode_text(text):
     return printable_text
 
 
+def get_device_id(text:str) -> str:
+    patern = re.compile('\"device_id\":\"[\S]{36}\"')
+    result = patern.search(text).group().split(':')[1][1:-1]
+    return result
+
+
+def get_access_tokens(text:str) -> str:
+    patern = re.compile('script type=\"text/javascript\" src=\"\S+ConsumerLibCommons.js\S+\"')
+    result = lamfun1(patern, text)
+    response = requests.get(f'{start_url}{result}')
+    
+    patern = re.compile("e.instagramWebDesktopFBAppId='\d+'")
+    result1 = patern.search(response.text).group().split('=')[1][1:-1]
+    
+    patern = re.compile("e.instagramWebDesktopClientToken='[\S]{32}'")
+    result2 = patern.search(response.text).group().split('=')[1][1:-1]
+    return dict({'instagramWebDesktopFBAppId': result1,
+                 'instagramWebDesktopClientToken': result2, })
+
+
 def get_profile_hash(text:str) -> str:
     """
     https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
@@ -78,9 +127,6 @@ def get_profile_hash(text:str) -> str:
     
 
 def get_consumer_hash(text:str) -> dict:
-    """
-    https://www.diggernaut.ru/blog/kak-parsit-stranitsy-saytov-s-avtopodgruzkoy-na-primere-instagram/
-    """
     patern = re.compile('script type=\"text/javascript\" src=\"\S+Consumer.js\S+\"')
     result = lamfun1(patern, text)
     response = requests.get(f'{start_url}{result}')
@@ -109,3 +155,4 @@ def get_user_common_info(response:HtmlResponse, username) -> dict:
                  'username': username, 
                  'followers': followers, 
                  'following': following, })
+    

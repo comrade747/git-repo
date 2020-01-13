@@ -15,7 +15,8 @@ BOT_NAME = 'gbinstagram'
 SPIDER_MODULES = ['spiders']
 NEWSPIDER_MODULE = 'spiders'
 
-DB_NAME = ''
+DB_NAME = 'geekbrains'
+DB_HOST = 'raspberry'
 
 # define logger info
 LOG_LEVEL = 'DEBUG'
@@ -23,7 +24,7 @@ LOG_FORMAT = '%(levelname)-8s [%(asctime)s] %(message)s'
 LOG_FILE = 'InstagramLog.log'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 OPR/65.0.3467.72'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -34,11 +35,11 @@ CONCURRENT_REQUESTS = 8
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 1.734
+DOWNLOAD_DELAY = 2.734
 
 # The download delay setting will honor only one of:
-CONCURRENT_REQUESTS_PER_DOMAIN = 16
-CONCURRENT_REQUESTS_PER_IP = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 8
+CONCURRENT_REQUESTS_PER_IP = 8
 
 # Disable cookies (enabled by default)
 COOKIES_ENABLED = False
@@ -49,7 +50,7 @@ TELNETCONSOLE_ENABLED = False
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-   'Accept-Language': 'en',
+   'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
    'Connection': 'keep-alive',
    'Referer': 'https://www.instagram.com/',
    'Host': 'www.instagram.com',
@@ -116,4 +117,3 @@ AUTOTHROTTLE_DEBUG = True
 #    '133.167.93.190:3128',
 #    '49.156.42.188:8080',
 #]
-
