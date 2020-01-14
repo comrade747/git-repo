@@ -6,17 +6,15 @@ Created on Sat Dec 21 15:22:07 2019
 """
 from pymongo import MongoClient
 import datetime
-import settings as sts
+import project_settings as ps
 
 
 class InstagramUsersPipeline(object):
     
     def __init__(self):
-        connection = MongoClient(sts.DB_HOST, 27017)
-        #connection = MongoClient('gbubuntu.tk', 27017)
-        #connection.geekbrains.authenticate('sysdba', 'masterkey')
-        connection[sts.DB_NAME].authenticate('sysdba', 'masterkey')
-        self.collection = connection[sts.DB_NAME].InstagramUsers
+        connection = MongoClient(ps.DB_HOST, 27017)
+        connection[ps.DB_NAME].authenticate('sysdba', 'masterkey')
+        self.collection = connection[ps.DB_NAME].InstagramUsers
         
         
     def process_item(self, item, spider):

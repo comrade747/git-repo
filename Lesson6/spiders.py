@@ -15,7 +15,8 @@ from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy.http.response.html import HtmlResponse
 import projUtils as pu
-import settings as sts
+import scrapy_settings as sts
+import project_settings as pss
 
 #class HHVacancyLoader(ItemLoader):
 #    default_output_processor = Identity()
@@ -25,23 +26,8 @@ class InstagramSpider(CrawlSpider):
     name = 'instagram'
     allowed_domains = ['instagram.com']
     start_urls = ['https://www.instagram.com/']
-    USER = 'd9976421'
-    PWRD = 'ddpA343Q'
-    USER_ID = 0
-    LOGIN_URL = 'https://www.instagram.com/accounts/login/ajax/'
-    PROFILE = 'gefestart'
-    GRAPHQL_URL = 'https://www.instagram.com/graphql/query/?'
-    MID = 'WfXP8gALAAG77C69RfPIlU746HER'
-    SESSION_ID = '26998198317%3Aa6huW1oSyG11dk%3A27'
     
-    url_converter = lambda self, x: x.lower().replace("%27", "%22").replace("+", "")
 
-
-    def data_parse1(self, response:HtmlResponse, 
-                   userStatus:pu.UserRelationshipStatus,
-                   user_info:dict ):
-        print(1)
-        return 
     def data_parse(self, response:HtmlResponse, 
                    userStatus:pu.UserRelationshipStatus,
                    user_info:dict ):
@@ -104,31 +90,22 @@ class InstagramSpider(CrawlSpider):
                         "first":13, 
                         "after":cursor_data['end_cursor'], }
 
-            cookies = 'mid={}; mcd=3; ig_did={}; sessionid={}; csrftoken={}; ds_user_id={}; rur=FRC;'.format(
-                    self.MID, device_id, self.SESSION_ID, csrf_token, self.USER_ID)
-    #            'urlgen="{\\"37.190.124.212\\": 25513}:1ipyDI:MnWNJDOqodO0uMeu4CHHuhXZcg0"'
+            header_vars = { 'referer': f'https://www.instagram.com/{pss.PROFILE}/{profile_param}/'
+                     , 'sec-fetch-mode': 'cors'
+                     , 'sec-fetch-site': 'same-origin'
+                     , 'x-csrftoken': csrf_token
+                     , 'x-ig-app-id': fb_app_id
+                     #, 'x-ig-www-claim': 'hmac.AR3TihBiDn-8VpgpLKuRJkIFYKTuTovBB7CxmtPKXiPxO5h3'
+                     , 'x-requested-with': 'XMLHttpRequest' 
+                     , 'Connection': 'keep-alive'
+                     , 'Host': 'www.instagram.com' }
+            header_vars.update(sts.DEFAULT_REQUEST_HEADERS)
 
-            header_vars = {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-                         , 'accept-encoding': 'gzip, deflate, br'
-                         , 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
-                         , 'cookie': cookies
-                         , 'referer': f'https://www.instagram.com/gefestart/{profile_param}/'
-                         , 'sec-fetch-mode': 'cors'
-                         , 'sec-fetch-site': 'same-origin'
-                         , 'user-agent': sts.USER_AGENT
-                         , 'x-csrftoken': csrf_token
-                         , 'x-ig-app-id': fb_app_id
-    #                    , 'x-ig-www-claim': 'hmac.AR3TihBiDn-8VpgpLKuRJkIFYKTuTovBB7CxmtPKXiPxO5h3'
-                         , 'x-requested-with': 'XMLHttpRequest' 
-                         , 'Connection': 'keep-alive'
-                         , 'Host': 'www.instagram.com' }
-
-            url = f'{self.GRAPHQL_URL}query_hash={hash_value}&{urlencode({"variables": query_vars})}'
+            url = f'{pss.GRAPHQL_URL}query_hash={hash_value}&variables={json.dumps(query_vars)}'
             yield scrapy.FormRequest(
-                    url=self.url_converter(url),
+                    url=url,
                     method='GET',
                     callback=self.data_parse,
-                    # todo нужно определить sessionid
                     headers=header_vars,
                     cb_kwargs={'userStatus': userStatus, 
                                'user_info': user_info, }
@@ -144,37 +121,29 @@ class InstagramSpider(CrawlSpider):
         csrf_token = user_info.get('csrf_token')
         device_id = user_info.get('device_id')
         fb_app_id = user_info.get('instagramWebDesktopFBAppId')
-        cookies = 'ig_did={}; mid={}; csrftoken={}; ds_user_id={}; sessionid={}; rur=FRC;'.format(
-                device_id, self.MID, csrf_token, self.USER_ID, self.SESSION_ID)
-#            'urlgen="{\\"37.190.124.212\\": 25513}:1ipyDI:MnWNJDOqodO0uMeu4CHHuhXZcg0"'
         
         query_vars = {"id":user_info.get('identity'),
                       "include_reel":True,
                       "fetch_mutual":True,
                       "first":24, }
         
-        header_vars = {'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-                     , 'accept-encoding': 'gzip, deflate, br'
-                     , 'accept-language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
-                     , 'cookie': cookies
-                     , 'referer': 'https://www.instagram.com/gefestart/'
+        header_vars = { 'referer': f'https://www.instagram.com/{pss.PROFILE}/'
                      , 'sec-fetch-mode': 'cors'
                      , 'sec-fetch-site': 'same-origin'
-                     , 'user-agent': sts.USER_AGENT
                      , 'x-csrftoken': csrf_token
                      , 'x-ig-app-id': fb_app_id
-#                    , 'x-ig-www-claim': 'hmac.AR3TihBiDn-8VpgpLKuRJkIFYKTuTovBB7CxmtPKXiPxO5h3'
+                     #, 'x-ig-www-claim': 'hmac.AR3TihBiDn-8VpgpLKuRJkIFYKTuTovBB7CxmtPKXiPxO5h3'
                      , 'x-requested-with': 'XMLHttpRequest' 
                      , 'Connection': 'keep-alive'
                      , 'Host': 'www.instagram.com' }
+        header_vars.update(sts.DEFAULT_REQUEST_HEADERS)
         
         if user_info['followers'] > 0:
-            url = f'{self.GRAPHQL_URL}query_hash={fwersqhash}&{urlencode({"variables": query_vars})}'
+            url = f'{pss.GRAPHQL_URL}query_hash={fwersqhash}&variables={json.dumps(query_vars)}'
             yield scrapy.FormRequest(
-                    url=self.url_converter(url),
+                    url=url,
                     method='GET',
                     callback=self.data_parse,
-                    # todo нужно определить sessionid
                     headers=header_vars,
                     cb_kwargs={'userStatus': pu.UserRelationshipStatus.FOLLOWER, 
                                'user_info': user_info, }
@@ -182,12 +151,11 @@ class InstagramSpider(CrawlSpider):
         
         if user_info['following'] > 0:
             query_vars.update ({ "fetch_mutual":False, })
-            url = f'{self.GRAPHQL_URL}query_hash={fwingqhash}&{urlencode({"variables": query_vars})}'
+            url = f'{pss.GRAPHQL_URL}query_hash={fwingqhash}&variables={json.dumps(query_vars)}'
             yield scrapy.FormRequest(
-                    url=self.url_converter(url),
+                    url=url,
                     method='GET',
                     callback=self.data_parse,
-                    # todo нужно определить sessionid
                     headers=header_vars,
                     cb_kwargs={ 'userStatus': pu.UserRelationshipStatus.FOLLOWING, 
                                'user_info': user_info, }
@@ -213,9 +181,10 @@ class InstagramSpider(CrawlSpider):
                      "include_logged_out_extras":False,
                      "include_highlight_reels":True,
                      "include_related_profiles":False, }
-        url = f'{self.GRAPHQL_URL}query_hash={prflhash}&{urlencode({"variables": query_vars})}' 
+
+        url = f'{pss.GRAPHQL_URL}query_hash={prflhash}&variables={json.dumps(query_vars)}' 
         yield response.follow(
-                    self.url_converter(url),
+                    url,
                     self.userdata_parse,
                     cb_kwargs={'user_info': uci}
                     )
@@ -224,11 +193,11 @@ class InstagramSpider(CrawlSpider):
     def user_parse(self, response:HtmlResponse, csrf_token:dict):
         j_body = json.loads(response.text)
         if j_body.get('authenticated'):
-            self.USER_ID = int(j_body.get('userId'))
-            user_info = dict({'username': self.PROFILE, 
+            pss.USER_ID = int(j_body.get('userId'))
+            user_info = dict({'username': pss.PROFILE, 
                               'csrf_token': csrf_token, })
             yield response.follow(
-                    f'/{self.PROFILE}',
+                    f'/{pss.PROFILE}',
 #                    callback=self.userdata_parse,
                     callback=self.userprofile_parce,
                     cb_kwargs={'user_info': user_info}
@@ -238,11 +207,11 @@ class InstagramSpider(CrawlSpider):
     def parse(self, response:HtmlResponse):
         csrf_token = pu.fetch_csrf_token(response.text)
         yield scrapy.FormRequest(
-            url=self.LOGIN_URL, 
+            url=pss.LOGIN_URL, 
             method='POST',
             callback=self.user_parse,
-            formdata={'username': self.USER,
-                      'password': self.PWRD,},
+            formdata={'username': pss.USER,
+                      'password': pss.PWRD,},
             headers={'X-CSRFToken': csrf_token
                      , 'X-Instagram-AJAX':'1'
                      , 'Connection': 'keep-alive'
