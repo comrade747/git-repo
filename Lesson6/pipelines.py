@@ -6,15 +6,15 @@ Created on Sat Dec 21 15:22:07 2019
 """
 from pymongo import MongoClient
 import datetime
-import project_settings as ps
+import project_settings as pss
 
 
 class InstagramUsersPipeline(object):
     
     def __init__(self):
-        connection = MongoClient(ps.DB_HOST, 27017)
-        connection[ps.DB_NAME].authenticate('sysdba', 'masterkey')
-        self.collection = connection[ps.DB_NAME].InstagramUsers
+        connection = MongoClient(pss.DB_HOST, 27017)
+        connection[pss.DB_NAME].authenticate(pss.DB_USER, pss.DB_PWRD)
+        self.collection = connection[pss.DB_NAME].InstagramUsers
         
         
     def process_item(self, item, spider):
